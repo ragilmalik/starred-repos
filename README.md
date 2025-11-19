@@ -5,9 +5,9 @@
 ## 📊 Statistics
 
 - **Total Repositories**: 514
-- **Total Stars Given**: 10,221,489
+- **Total Stars Given**: 10,221,500
 - **Categories**: 24
-- **Last Updated**: 19-11-2025 04:44 UTC
+- **Last Updated**: 19-11-2025 04:46 UTC
 
 ### 📁 Category Distribution
 
@@ -68,10 +68,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/codecrafters-io/build-your-own-x">codecrafters-io/build-your-own-x</a></td>
 <td align="center">Markdown</td>
-<td align="center">440,008</td>
+<td align="center">440,009</td>
 <td align="center">Markdown</td>
 <td>Master programming by recreating your favorite technologies from scratch.</td>
-<td align="center"><sub>19-11-2025 04:43</sub></td>
+<td align="center"><sub>19-11-2025 04:46</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/sindresorhus/awesome">sindresorhus/awesome</a></td>
@@ -348,10 +348,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/binhnguyennus/awesome-scalability">binhnguyennus/awesome-scalability</a></td>
 <td align="center">AI/ML</td>
-<td align="center">66,748</td>
+<td align="center">66,749</td>
 <td align="center">None</td>
 <td>The Patterns of Scalable, Reliable, and Performant Large-Scale Systems</td>
-<td align="center"><sub>19-11-2025 04:19</sub></td>
+<td align="center"><sub>19-11-2025 04:46</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/xtekky/gpt4free">xtekky/gpt4free</a></td>
@@ -364,10 +364,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/sindresorhus/awesome-nodejs">sindresorhus/awesome-nodejs</a></td>
 <td align="center">Other</td>
-<td align="center">63,733</td>
+<td align="center">63,734</td>
 <td align="center">None</td>
 <td>:zap: Delightful Node.js packages and resources</td>
-<td align="center"><sub>19-11-2025 04:19</sub></td>
+<td align="center"><sub>19-11-2025 04:46</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/FoundationAgents/MetaGPT">FoundationAgents/MetaGPT</a></td>
@@ -452,10 +452,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/Mintplex-Labs/anything-llm">Mintplex-Labs/anything-llm</a></td>
 <td align="center">AI/ML</td>
-<td align="center">51,191</td>
+<td align="center">51,192</td>
 <td align="center">JavaScript</td>
 <td>The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builde...</td>
-<td align="center"><sub>19-11-2025 04:23</sub></td>
+<td align="center"><sub>19-11-2025 04:46</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/dockur/windows">dockur/windows</a></td>
@@ -482,15 +482,15 @@ For the full experience with **sortable columns** and **live search functionalit
 - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) ⭐ 70,384 - Hunt down social media accounts by username across social networks
 - [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐ 68,053 - 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data
 - [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) ⭐ 67,825 - 🤯 LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowle...
-- [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) ⭐ 66,748 - The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
+- [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) ⭐ 66,749 - The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
 - [xtekky/gpt4free](https://github.com/xtekky/gpt4free) ⭐ 65,545 - The official gpt4free repository   various collection of powerful language models   o4, o3 and deeps...
 - [sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX) ⭐ 51,738 - Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding!
-- [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) ⭐ 51,191 - The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, ...
+- [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) ⭐ 51,192 - The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, ...
 - [dockur/windows](https://github.com/dockur/windows) ⭐ 48,621 - Windows inside a Docker container.
 - [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ⭐ 47,818 - 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
 - [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) ⭐ 47,214 - Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-fr...
 - [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip) ⭐ 42,622 - [Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用...
-- [janhq/jan](https://github.com/janhq/jan) ⭐ 39,349 - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
+- [janhq/jan](https://github.com/janhq/jan) ⭐ 39,350 - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
 - [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) ⭐ 39,056 - A privacy-first, self-hosted, fully open source personal knowledge management software, written in t...
 - [mudler/LocalAI](https://github.com/mudler/LocalAI) ⭐ 38,775 - :robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first....
 - [phaserjs/phaser](https://github.com/phaserjs/phaser) ⭐ 38,608 - Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web b...
@@ -647,7 +647,7 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Markdown (1 repositories)
 
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) ⭐ 440,008 - Master programming by recreating your favorite technologies from scratch.
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) ⭐ 440,009 - Master programming by recreating your favorite technologies from scratch.
 
 ### Mobile (16 repositories)
 
@@ -655,7 +655,7 @@ For the full experience with **sortable columns** and **live search functionalit
 - [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ⭐ 102,691 - An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer...
 - [immich-app/immich](https://github.com/immich-app/immich) ⭐ 84,478 - High performance self-hosted photo and video management solution.
 - [Trinea/android-open-project](https://github.com/Trinea/android-open-project) ⭐ 31,826 - A categorized collection of Android Open Source Projects,  More powerful web version:
-- [MustardChef/WSABuilds](https://github.com/MustardChef/WSABuilds) ⭐ 13,522 - Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with ...
+- [MustardChef/WSABuilds](https://github.com/MustardChef/WSABuilds) ⭐ 13,523 - Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with ...
 - [milanvarady/Applite](https://github.com/milanvarady/Applite) ⭐ 5,886 - User-friendly GUI macOS application for Homebrew Casks
 - [TGX-Android/Telegram-X](https://github.com/TGX-Android/Telegram-X) ⭐ 4,863 - The main repository of Telegram X — official alternative Telegram client for Android.
 - [khcrysalis/Feather](https://github.com/khcrysalis/Feather) ⭐ 3,151 - Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Develo...
@@ -673,11 +673,11 @@ For the full experience with **sortable columns** and **live search functionalit
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) ⭐ 415,842 - 😎 Awesome lists about all kinds of interesting topics
 - [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ⭐ 258,855 - A list of Free Software network services and web applications which can be hosted on your own server...
 - [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) ⭐ 79,838 - A list of awesome beginners-friendly projects.
-- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) ⭐ 63,733 - :zap: Delightful Node.js packages and resources
+- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) ⭐ 63,734 - :zap: Delightful Node.js packages and resources
 - [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ⭐ 56,772 - ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
 - [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) ⭐ 53,567 - A list of cool features of Git and GitHub.
-- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) ⭐ 46,298 - 🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps
-- [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) ⭐ 44,056 - A curated list of free courses with certifications. Also available at https://free-certifications.co...
+- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) ⭐ 46,299 - 🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps
+- [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) ⭐ 44,057 - A curated list of free courses with certifications. Also available at https://free-certifications.co...
 - [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) ⭐ 40,952 - A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-py...
 - [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) ⭐ 28,436 - 😎 A curated list of awesome GitHub Profile which updates in real time
 - [sdras/awesome-actions](https://github.com/sdras/awesome-actions) ⭐ 27,094 - A curated list of awesome actions to use on GitHub
@@ -689,7 +689,7 @@ For the full experience with **sortable columns** and **live search functionalit
 - [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) ⭐ 9,992 - Frontier Open-Source Text-to-Speech
 - [photopea/photopea](https://github.com/photopea/photopea) ⭐ 8,025 - Photopea is online image editor
 - [yeyintminthuhtut/Awesome-Red-Teaming](https://github.com/yeyintminthuhtut/Awesome-Red-Teaming) ⭐ 7,589 - List of Awesome Red Teaming Resources
-- [proxifly/free-proxy-list](https://github.com/proxifly/free-proxy-list) ⭐ 2,957 - 🚀 Free HTTP, SOCKS4, & SOCKS5 Proxy List * Updated every 5 minutes *
+- [proxifly/free-proxy-list](https://github.com/proxifly/free-proxy-list) ⭐ 2,958 - 🚀 Free HTTP, SOCKS4, & SOCKS5 Proxy List * Updated every 5 minutes *
 
 *...and 12 more. See [GitHub Pages](https://ragilmalik.github.io/stars-repos/) or [Excel file](./starred_repos.xlsx) for complete list.*
 
@@ -705,7 +705,7 @@ For the full experience with **sortable columns** and **live search functionalit
 - [rizinorg/cutter](https://github.com/rizinorg/cutter) ⭐ 18,031 - Free and Open Source Reverse Engineering Platform powered by rizin
 - [sensepost/objection](https://github.com/sensepost/objection) ⭐ 8,654 - 📱 objection - runtime mobile exploration
 - [Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy) ⭐ 8,483 - 🦄  A curated list of privacy & security-focused software and services
-- [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) ⭐ 7,737 - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data i...
+- [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) ⭐ 7,738 - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data i...
 - [p1ngul1n0/blackbird](https://github.com/p1ngul1n0/blackbird) ⭐ 5,009 - An OSINT tool to search for accounts by username and email in social networks.
 - [EnergizedProtection/block](https://github.com/EnergizedProtection/block) ⭐ 2,742 - Let's make an annoyance free, better open internet, altogether!
 - [iamcryptoki/snowden-archive](https://github.com/iamcryptoki/snowden-archive) ⭐ 1,258 - 💥 A collection of all documents leaked by former NSA contractor and whistleblower Edward Snowden.
@@ -725,7 +725,7 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Svelte (2 repositories)
 
-- [VERT-sh/VERT](https://github.com/VERT-sh/VERT) ⭐ 9,116 - The next-generation file converter. Open source, fully local* and free forever.
+- [VERT-sh/VERT](https://github.com/VERT-sh/VERT) ⭐ 9,117 - The next-generation file converter. Open source, fully local* and free forever.
 - [Abdenasser/neohtop](https://github.com/Abdenasser/neohtop) ⭐ 8,545 - 💪🏻 Blazing-fast system monitoring for your desktop (built with Rust, Tauri & Svelte)
 
 ### Web Development (55 repositories)
@@ -744,7 +744,7 @@ For the full experience with **sortable columns** and **live search functionalit
 - [LouisShark/chatgpt_system_prompt](https://github.com/LouisShark/chatgpt_system_prompt) ⭐ 9,861 - A collection of GPT system prompts and various prompt injection/leaking knowledge.
 - [sdelements/lets-chat](https://github.com/sdelements/lets-chat) ⭐ 9,821 - Self-hosted chat app for small teams
 - [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) ⭐ 9,568 - Spec-driven development for AI coding assistants.
-- [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome) ⭐ 9,284 - Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your ...
+- [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome) ⭐ 9,283 - Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your ...
 - [NopeCHALLC/nopecha-extension](https://github.com/NopeCHALLC/nopecha-extension) ⭐ 8,946 - Automated CAPTCHA solver for your browser. Works with Selenium, Puppeteer, Playwright, and more.
 - [Nutlope/llamacoder](https://github.com/Nutlope/llamacoder) ⭐ 6,724 - Open source Claude Artifacts – built with Llama 3.1 405B
 - [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) ⭐ 6,374 - Desktop App for downloading Videos and Audios from hundreds of sites
@@ -781,7 +781,7 @@ Check out the **[TUTORIAL.md](./TUTORIAL.md)** for complete setup instructions!
 
 **Made with ❤️ using Python and GitHub Actions**
 
-*Last generated: 19-11-2025 04:44 UTC*
+*Last generated: 19-11-2025 04:46 UTC*
 
 [🌐 Live Interactive View](https://ragilmalik.github.io/stars-repos/) • [📥 Download Excel](./starred_repos.xlsx) • [📖 Setup Tutorial](./TUTORIAL.md)
 
