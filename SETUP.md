@@ -25,11 +25,13 @@ pip install -r requirements.txt
 
 ### 3. Configure your GitHub token (Local Development)
 
-The `.env` file already contains your token for local testing:
+Create a `.env` file in the root directory with your GitHub token:
 
 ```
-GITHUB_TOKEN=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
+GITHUB_TOKEN=your_github_token_here
 ```
+
+Replace `your_github_token_here` with your actual GitHub Personal Access Token.
 
 ⚠️ **IMPORTANT**: The `.env` file is in `.gitignore` and will NOT be pushed to GitHub for security.
 
@@ -55,7 +57,7 @@ To enable automatic daily updates, you need to add your GitHub token as a reposi
 2. Click **Settings** → **Secrets and variables** → **Actions**
 3. Click **New repository secret**
 4. Name: `STARS_TOKEN`
-5. Value: `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`
+5. Value: `your_github_token_here` (paste your actual token)
 6. Click **Add secret**
 
 ### Step 2: Enable GitHub Actions
