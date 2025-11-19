@@ -5,9 +5,9 @@
 ## 📊 Statistics
 
 - **Total Repositories**: 514
-- **Total Stars Given**: 10,221,308
+- **Total Stars Given**: 10,221,325
 - **Categories**: 24
-- **Last Updated**: 19-11-2025 04:09 UTC
+- **Last Updated**: 19-11-2025 04:14 UTC
 
 ### 📁 Category Distribution
 
@@ -59,34 +59,34 @@
 <tr>
 <td><a href="https://github.com/codecrafters-io/build-your-own-x">codecrafters-io/build-your-own-x</a></td>
 <td>Markdown</td>
-<td>440,004</td>
+<td>440,005</td>
 <td>Markdown</td>
 <td>Master programming by recreating your favorite technologies from scratch.</td>
-<td>19-11-2025 04:08</td>
+<td>19-11-2025 04:09</td>
 </tr>
 <tr>
 <td><a href="https://github.com/sindresorhus/awesome">sindresorhus/awesome</a></td>
 <td>Other</td>
-<td>415,833</td>
+<td>415,835</td>
 <td>None</td>
 <td>😎 Awesome lists about all kinds of interesting topics</td>
-<td>19-11-2025 04:04</td>
+<td>19-11-2025 04:13</td>
 </tr>
 <tr>
 <td><a href="https://github.com/public-apis/public-apis">public-apis/public-apis</a></td>
 <td>Backend</td>
-<td>379,356</td>
+<td>379,357</td>
 <td>Python</td>
 <td>A collective list of free APIs</td>
-<td>19-11-2025 04:05</td>
+<td>19-11-2025 04:13</td>
 </tr>
 <tr>
 <td><a href="https://github.com/vinta/awesome-python">vinta/awesome-python</a></td>
 <td>Backend</td>
-<td>269,954</td>
+<td>269,955</td>
 <td>Python</td>
 <td>An opinionated list of awesome Python frameworks, libraries, software and resources.</td>
-<td>19-11-2025 04:06</td>
+<td>19-11-2025 04:11</td>
 </tr>
 <tr>
 <td><a href="https://github.com/awesome-selfhosted/awesome-selfhosted">awesome-selfhosted/awesome-selfhosted</a></td>
@@ -187,10 +187,10 @@
 <tr>
 <td><a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></td>
 <td>AI/ML</td>
-<td>115,596</td>
+<td>115,597</td>
 <td>JavaScript</td>
 <td>User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</td>
-<td>19-11-2025 03:43</td>
+<td>19-11-2025 04:14</td>
 </tr>
 <tr>
 <td><a href="https://github.com/ripienaar/free-for-dev">ripienaar/free-for-dev</a></td>
@@ -275,10 +275,10 @@
 <tr>
 <td><a href="https://github.com/microsoft/markitdown">microsoft/markitdown</a></td>
 <td>AI/ML</td>
-<td>83,097</td>
+<td>83,098</td>
 <td>Python</td>
 <td>Python tool for converting files and office documents to Markdown.</td>
-<td>19-11-2025 04:03</td>
+<td>19-11-2025 04:13</td>
 </tr>
 <tr>
 <td><a href="https://github.com/MunGell/awesome-for-beginners">MunGell/awesome-for-beginners</a></td>
@@ -291,10 +291,10 @@
 <tr>
 <td><a href="https://github.com/Shubhamsaboo/awesome-llm-apps">Shubhamsaboo/awesome-llm-apps</a></td>
 <td>Backend</td>
-<td>78,890</td>
+<td>78,891</td>
 <td>Python</td>
 <td>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</td>
-<td>19-11-2025 04:02</td>
+<td>19-11-2025 04:13</td>
 </tr>
 <tr>
 <td><a href="https://github.com/louislam/uptime-kuma">louislam/uptime-kuma</a></td>
@@ -443,10 +443,10 @@
 <tr>
 <td><a href="https://github.com/Mintplex-Labs/anything-llm">Mintplex-Labs/anything-llm</a></td>
 <td>AI/ML</td>
-<td>51,189</td>
+<td>51,190</td>
 <td>JavaScript</td>
 <td>The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.</td>
-<td>19-11-2025 02:24</td>
+<td>19-11-2025 04:12</td>
 </tr>
 <tr>
 <td><a href="https://github.com/dockur/windows">dockur/windows</a></td>
@@ -515,10 +515,10 @@
 <tr>
 <td><a href="https://github.com/cloudcommunity/Free-Certifications">cloudcommunity/Free-Certifications</a></td>
 <td>Other</td>
-<td>44,046</td>
+<td>44,047</td>
 <td>None</td>
 <td>A curated list of free courses with certifications. Also available at https://free-certifications.com/</td>
-<td>19-11-2025 04:03</td>
+<td>19-11-2025 04:12</td>
 </tr>
 <tr>
 <td><a href="https://github.com/ChrisTitusTech/winutil">ChrisTitusTech/winutil</a></td>
@@ -531,10 +531,10 @@
 <tr>
 <td><a href="https://github.com/yeongpin/cursor-free-vip">yeongpin/cursor-free-vip</a></td>
 <td>AI/ML</td>
-<td>42,613</td>
+<td>42,615</td>
 <td>Python</td>
 <td>[Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machi...</td>
-<td>19-11-2025 04:00</td>
+<td>19-11-2025 04:11</td>
 </tr>
 <tr>
 <td><a href="https://github.com/docker/awesome-compose">docker/awesome-compose</a></td>
@@ -547,10 +547,10 @@
 <tr>
 <td><a href="https://github.com/Zie619/n8n-workflows">Zie619/n8n-workflows</a></td>
 <td>Backend</td>
-<td>41,647</td>
+<td>41,648</td>
 <td>Python</td>
 <td>all of the workflows of n8n i could find (also from the site itself)</td>
-<td>19-11-2025 04:04</td>
+<td>19-11-2025 04:13</td>
 </tr>
 <tr>
 <td><a href="https://github.com/lukasz-madon/awesome-remote-job">lukasz-madon/awesome-remote-job</a></td>
@@ -734,7 +734,7 @@
 <td>31,284</td>
 <td>Python</td>
 <td>Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthr...</td>
-<td>19-11-2025 04:06</td>
+<td>19-11-2025 04:13</td>
 </tr>
 <tr>
 <td><a href="https://github.com/glanceapp/glance">glanceapp/glance</a></td>
@@ -923,10 +923,10 @@
 <tr>
 <td><a href="https://github.com/eyaltoledano/claude-task-master">eyaltoledano/claude-task-master</a></td>
 <td>AI/ML</td>
-<td>23,775</td>
+<td>23,774</td>
 <td>JavaScript</td>
 <td>An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.</td>
-<td>19-11-2025 03:48</td>
+<td>19-11-2025 04:12</td>
 </tr>
 <tr>
 <td><a href="https://github.com/Lissy93/dashy">Lissy93/dashy</a></td>
@@ -1123,10 +1123,10 @@
 <tr>
 <td><a href="https://github.com/openai/openai-agents-python">openai/openai-agents-python</a></td>
 <td>AI/ML</td>
-<td>17,389</td>
+<td>17,390</td>
 <td>Python</td>
 <td>A lightweight, powerful framework for multi-agent workflows</td>
-<td>19-11-2025 03:21</td>
+<td>19-11-2025 04:11</td>
 </tr>
 <tr>
 <td><a href="https://github.com/Alibaba-NLP/DeepResearch">Alibaba-NLP/DeepResearch</a></td>
@@ -1555,10 +1555,10 @@
 <tr>
 <td><a href="https://github.com/FlareSolverr/FlareSolverr">FlareSolverr/FlareSolverr</a></td>
 <td>DevOps</td>
-<td>11,464</td>
+<td>11,465</td>
 <td>Python</td>
 <td>Proxy server to bypass Cloudflare protection</td>
-<td>19-11-2025 03:51</td>
+<td>19-11-2025 04:14</td>
 </tr>
 <tr>
 <td><a href="https://github.com/nanobrowser/nanobrowser">nanobrowser/nanobrowser</a></td>
@@ -1875,10 +1875,10 @@
 <tr>
 <td><a href="https://github.com/Sjj1024/PakePlus">Sjj1024/PakePlus</a></td>
 <td>Frontend</td>
-<td>7,270</td>
+<td>7,271</td>
 <td>HTML</td>
 <td>Turn any webpage/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes. 轻松将任意网站/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟. https://ppofficial.netlify.app</td>
-<td>19-11-2025 04:01</td>
+<td>19-11-2025 04:09</td>
 </tr>
 <tr>
 <td><a href="https://github.com/tubearchivist/tubearchivist">tubearchivist/tubearchivist</a></td>
@@ -1891,10 +1891,10 @@
 <tr>
 <td><a href="https://github.com/Nutlope/llamacoder">Nutlope/llamacoder</a></td>
 <td>Web Development</td>
-<td>6,723</td>
+<td>6,724</td>
 <td>TypeScript</td>
 <td>Open source Claude Artifacts – built with Llama 3.1 405B</td>
-<td>18-11-2025 10:17</td>
+<td>19-11-2025 04:11</td>
 </tr>
 <tr>
 <td><a href="https://github.com/cheahjs/free-llm-api-resources">cheahjs/free-llm-api-resources</a></td>
@@ -2155,10 +2155,10 @@
 <tr>
 <td><a href="https://github.com/taubyte/tau">taubyte/tau</a></td>
 <td>AI/ML</td>
-<td>4,671</td>
+<td>4,672</td>
 <td>Go</td>
 <td>Fullstack Workspace for Humans & Machines</td>
-<td>19-11-2025 04:07</td>
+<td>19-11-2025 04:12</td>
 </tr>
 <tr>
 <td><a href="https://github.com/NewFuture/DDNS">NewFuture/DDNS</a></td>
