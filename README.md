@@ -5,9 +5,9 @@
 ## 📊 Statistics
 
 - **Total Repositories**: 514
-- **Total Stars Given**: 10,221,325
+- **Total Stars Given**: 10,221,331
 - **Categories**: 24
-- **Last Updated**: 19-11-2025 04:14 UTC
+- **Last Updated**: 19-11-2025 04:15 UTC
 
 ### 📁 Category Distribution
 
@@ -83,10 +83,10 @@
 <tr>
 <td><a href="https://github.com/vinta/awesome-python">vinta/awesome-python</a></td>
 <td>Backend</td>
-<td>269,955</td>
+<td>269,956</td>
 <td>Python</td>
 <td>An opinionated list of awesome Python frameworks, libraries, software and resources.</td>
-<td>19-11-2025 04:11</td>
+<td>19-11-2025 04:15</td>
 </tr>
 <tr>
 <td><a href="https://github.com/awesome-selfhosted/awesome-selfhosted">awesome-selfhosted/awesome-selfhosted</a></td>
@@ -115,10 +115,10 @@
 <tr>
 <td><a href="https://github.com/trimstray/the-book-of-secret-knowledge">trimstray/the-book-of-secret-knowledge</a></td>
 <td>DevOps</td>
-<td>194,686</td>
+<td>194,685</td>
 <td>None</td>
 <td>A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.</td>
-<td>19-11-2025 04:09</td>
+<td>19-11-2025 04:15</td>
 </tr>
 <tr>
 <td><a href="https://github.com/ohmyzsh/ohmyzsh">ohmyzsh/ohmyzsh</a></td>
@@ -187,10 +187,10 @@
 <tr>
 <td><a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></td>
 <td>AI/ML</td>
-<td>115,597</td>
+<td>115,598</td>
 <td>JavaScript</td>
 <td>User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</td>
-<td>19-11-2025 04:14</td>
+<td>19-11-2025 04:15</td>
 </tr>
 <tr>
 <td><a href="https://github.com/ripienaar/free-for-dev">ripienaar/free-for-dev</a></td>
@@ -267,10 +267,10 @@
 <tr>
 <td><a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></td>
 <td>Backend</td>
-<td>83,197</td>
+<td>83,199</td>
 <td>TypeScript</td>
 <td>An open-source AI agent that brings the power of Gemini directly into your terminal.</td>
-<td>19-11-2025 04:05</td>
+<td>19-11-2025 04:15</td>
 </tr>
 <tr>
 <td><a href="https://github.com/microsoft/markitdown">microsoft/markitdown</a></td>
@@ -363,10 +363,10 @@
 <tr>
 <td><a href="https://github.com/FoundationAgents/MetaGPT">FoundationAgents/MetaGPT</a></td>
 <td>Backend</td>
-<td>59,556</td>
+<td>59,557</td>
 <td>Python</td>
 <td>🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming</td>
-<td>19-11-2025 02:24</td>
+<td>19-11-2025 04:14</td>
 </tr>
 <tr>
 <td><a href="https://github.com/traefik/traefik">traefik/traefik</a></td>
@@ -734,7 +734,7 @@
 <td>31,284</td>
 <td>Python</td>
 <td>Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthr...</td>
-<td>19-11-2025 04:13</td>
+<td>19-11-2025 04:14</td>
 </tr>
 <tr>
 <td><a href="https://github.com/glanceapp/glance">glanceapp/glance</a></td>
@@ -1875,10 +1875,10 @@
 <tr>
 <td><a href="https://github.com/Sjj1024/PakePlus">Sjj1024/PakePlus</a></td>
 <td>Frontend</td>
-<td>7,271</td>
+<td>7,272</td>
 <td>HTML</td>
 <td>Turn any webpage/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes. 轻松将任意网站/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟. https://ppofficial.netlify.app</td>
-<td>19-11-2025 04:09</td>
+<td>19-11-2025 04:15</td>
 </tr>
 <tr>
 <td><a href="https://github.com/tubearchivist/tubearchivist">tubearchivist/tubearchivist</a></td>
@@ -2747,10 +2747,10 @@
 <tr>
 <td><a href="https://github.com/Afilmory/afilmory">Afilmory/afilmory</a></td>
 <td>Web Development</td>
-<td>2,029</td>
+<td>2,030</td>
 <td>TypeScript</td>
 <td>A personal photography website celebrating the art of capturing moments with a nostalgic, retro vibe. Blending aperture, film, and memory.</td>
-<td>19-11-2025 00:49</td>
+<td>19-11-2025 04:15</td>
 </tr>
 <tr>
 <td><a href="https://github.com/frappe/crm">frappe/crm</a></td>
