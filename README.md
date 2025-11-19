@@ -42,7 +42,7 @@
 
 For the full experience with **sortable columns** and **live search functionality**:
 
-- 🌐 **[Live GitHub Pages](https://ragilmalik.github.io/stars-repos/)** - Interactive web app with sorting and real-time search
+- 🌐 **[Live GitHub Pages](https://github.ragilmalik.com/starred-repos)** - Interactive web app with sorting and real-time search
 - 📊 **[Excel Spreadsheet](./starred_repos.xlsx)** - Full data with filters and sorting
 - 💾 **[Download HTML](./index.html)** - Offline version you can open locally
 
@@ -783,6 +783,6 @@ Check out the **[TUTORIAL.md](./TUTORIAL.md)** for complete setup instructions!
 
 *Last generated: 19-11-2025 05:12 UTC*
 
-[🌐 Live Interactive View](https://ragilmalik.github.io/stars-repos/) • [📥 Download Excel](./starred_repos.xlsx) • [📖 Setup Tutorial](./TUTORIAL.md)
+[🌐 Live Interactive View](https://github.ragilmalik.com/starred-repos) • [📥 Download Excel](./starred_repos.xlsx) • [📖 Setup Tutorial](./TUTORIAL.md)
 
 </div>
