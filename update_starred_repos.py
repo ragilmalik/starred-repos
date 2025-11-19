@@ -153,8 +153,8 @@ def process_repos(repos: List[Dict[str, Any]]) -> List[Dict[str, str]]:
     return processed
 
 def generate_interactive_html(repos: List[Dict[str, str]]) -> None:
-    """Generate interactive HTML file with sortable table and search"""
-    print("Generating interactive HTML...")
+    """Generate index.html for GitHub Pages with sortable table and search"""
+    print("Generating index.html for GitHub Pages...")
 
     last_updated = datetime.utcnow().strftime('%d-%m-%Y %H:%M UTC')
     total_repos = len(repos)
@@ -170,175 +170,364 @@ def generate_interactive_html(repos: List[Dict[str, str]]) -> None:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Starred Repositories</title>
+    <title>GitHub Starred Repositories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        * {{ box-sizing: border-box; }}
+        * {{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }}
+
         body {{
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-            max-width: 1600px;
-            margin: 0 auto;
-            padding: 20px;
-            background: #0d1117;
-            color: #c9d1d9;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #000000;
+            color: #e6e6e6;
             line-height: 1.6;
+            overflow-x: hidden;
         }}
-        h1 {{
-            color: #58a6ff;
-            text-align: center;
-            margin-bottom: 10px;
-        }}
-        .subtitle {{
-            text-align: center;
-            color: #8b949e;
-            margin-bottom: 30px;
-        }}
-        .stats {{
-            background: #161b22;
-            padding: 20px;
-            border-radius: 6px;
-            margin: 20px 0;
-            border: 1px solid #30363d;
-        }}
-        table {{
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            background: #161b22;
-            border-radius: 6px;
-            overflow: hidden;
-            border: 1px solid #30363d;
-        }}
-        th {{
-            background: #21262d;
-            padding: 12px;
-            text-align: left;
-            font-weight: 600;
-            cursor: pointer;
-            user-select: none;
+
+        /* Compact Header */
+        .header {{
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+            padding: 1.5rem 2rem;
+            border-bottom: 1px solid #222;
             position: sticky;
             top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }}
+
+        .header-content {{
+            max-width: 1600px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }}
+
+        .title {{
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }}
+
+        .title h1 {{
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }}
+
+        .title .emoji {{
+            font-size: 1.75rem;
+        }}
+
+        /* Stats Bar - Inline */
+        .stats-inline {{
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            font-size: 0.875rem;
+        }}
+
+        .stat-inline {{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }}
+
+        .stat-number {{
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #60a5fa;
+        }}
+
+        .stat-label {{
+            font-size: 0.75rem;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }}
+
+        /* Search Bar */
+        .search-container {{
+            max-width: 1600px;
+            margin: 1.5rem auto;
+            padding: 0 2rem;
+        }}
+
+        .search-wrapper {{
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+        }}
+
+        .search-icon {{
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.125rem;
+            opacity: 0.5;
+        }}
+
+        #searchInput {{
+            width: 100%;
+            padding: 0.875rem 1rem 0.875rem 3rem;
+            background: #0a0a0a;
+            border: 1px solid #222;
+            border-radius: 12px;
+            color: #e6e6e6;
+            font-size: 0.9375rem;
+            font-family: 'Inter', sans-serif;
+            transition: all 0.3s ease;
+        }}
+
+        #searchInput:focus {{
+            outline: none;
+            border-color: #60a5fa;
+            background: #111;
+            box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.1);
+        }}
+
+        #searchInput::placeholder {{
+            color: #555;
+        }}
+
+        /* Table Container */
+        .table-container {{
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 2rem 2rem;
+        }}
+
+        table {{
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            background: #0a0a0a;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #1a1a1a;
+        }}
+
+        thead {{
+            background: #111;
+            position: sticky;
+            top: 72px;
             z-index: 10;
+        }}
+
+        th {{
+            padding: 1rem 1.25rem;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.8125rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #888;
+            cursor: pointer;
+            user-select: none;
             white-space: nowrap;
+            border-bottom: 1px solid #1a1a1a;
+            transition: all 0.2s ease;
         }}
+
         th:hover {{
-            background: #30363d;
+            background: #1a1a1a;
+            color: #60a5fa;
         }}
+
+        .sort-indicator {{
+            display: inline-block;
+            margin-left: 0.375rem;
+            font-size: 0.75rem;
+            opacity: 0.6;
+            transition: all 0.2s ease;
+        }}
+
+        th:hover .sort-indicator {{
+            opacity: 1;
+        }}
+
         td {{
-            padding: 10px 12px;
-            border-top: 1px solid #21262d;
+            padding: 1.125rem 1.25rem;
+            border-bottom: 1px solid #0f0f0f;
+            font-size: 0.875rem;
             word-wrap: break-word;
         }}
-        tr:hover {{
-            background: #0d1117;
+
+        tbody tr {{
+            transition: all 0.2s ease;
         }}
+
+        tbody tr:hover {{
+            background: #0f0f0f;
+        }}
+
+        tbody tr:last-child td {{
+            border-bottom: none;
+        }}
+
         a {{
-            color: #58a6ff;
+            color: #60a5fa;
             text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
         }}
+
         a:hover {{
+            color: #93c5fd;
             text-decoration: underline;
         }}
-        .stats-grid {{
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-        }}
-        .stat-box {{
-            background: #0d1117;
-            padding: 15px;
-            border-radius: 6px;
-            border: 1px solid #30363d;
-        }}
-        .stat-number {{
-            font-size: 24px;
-            font-weight: bold;
-            color: #58a6ff;
-        }}
-        .stat-label {{
-            color: #8b949e;
-            font-size: 14px;
-        }}
-        .controls {{
-            margin: 20px 0;
-            text-align: center;
-        }}
-        input[type="text"] {{
-            padding: 10px 15px;
-            border: 1px solid #30363d;
-            background: #0d1117;
-            color: #c9d1d9;
-            border-radius: 6px;
-            width: 100%;
-            max-width: 500px;
-            font-size: 14px;
-        }}
-        input[type="text"]:focus {{
-            outline: none;
-            border-color: #58a6ff;
-        }}
-        .sort-indicator {{
-            font-size: 0.8em;
-            margin-left: 5px;
-        }}
+
         /* Column widths */
-        th:nth-child(1), td:nth-child(1) {{ width: 20%; }} /* Name */
-        th:nth-child(2), td:nth-child(2) {{ width: 12%; text-align: center; }} /* Category */
-        th:nth-child(3), td:nth-child(3) {{ width: 8%; text-align: center; }} /* Stars */
-        th:nth-child(4), td:nth-child(4) {{ width: 10%; text-align: center; }} /* Language */
-        th:nth-child(5), td:nth-child(5) {{ width: 38%; }} /* Description */
-        th:nth-child(6), td:nth-child(6) {{ width: 12%; text-align: center; font-size: 0.85em; }} /* Updated */
+        th:nth-child(1), td:nth-child(1) {{ width: 22%; }}
+        th:nth-child(2), td:nth-child(2) {{ width: 11%; text-align: center; }}
+        th:nth-child(3), td:nth-child(3) {{ width: 9%; text-align: center; }}
+        th:nth-child(4), td:nth-child(4) {{ width: 10%; text-align: center; }}
+        th:nth-child(5), td:nth-child(5) {{ width: 36%; }}
+        th:nth-child(6), td:nth-child(6) {{ width: 12%; text-align: center; font-size: 0.8125rem; color: #666; }}
+
+        /* Category badges */
+        .category-badge {{
+            display: inline-block;
+            padding: 0.25rem 0.625rem;
+            background: #1a1a1a;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            border: 1px solid #222;
+        }}
+
+        /* Language badges */
+        .language-badge {{
+            display: inline-block;
+            padding: 0.25rem 0.625rem;
+            background: linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 100%);
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            border: 1px solid #1a1a1a;
+        }}
+
+        /* Stars */
+        .stars {{
+            font-weight: 600;
+            color: #fbbf24;
+        }}
+
+        /* Responsive */
+        @media (max-width: 768px) {{
+            .header {{
+                padding: 1rem;
+            }}
+
+            .header-content {{
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }}
+
+            .stats-inline {{
+                gap: 1rem;
+                font-size: 0.8125rem;
+            }}
+
+            .search-container, .table-container {{
+                padding: 1rem;
+            }}
+
+            th, td {{
+                padding: 0.75rem 0.875rem;
+                font-size: 0.8125rem;
+            }}
+        }}
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {{
+            width: 8px;
+            height: 8px;
+        }}
+
+        ::-webkit-scrollbar-track {{
+            background: #000;
+        }}
+
+        ::-webkit-scrollbar-thumb {{
+            background: #222;
+            border-radius: 4px;
+        }}
+
+        ::-webkit-scrollbar-thumb:hover {{
+            background: #333;
+        }}
     </style>
 </head>
 <body>
-    <h1>🌟 My GitHub Starred Repositories</h1>
-    <p class="subtitle">Automatically updated tracker of all starred repositories</p>
+    <header class="header">
+        <div class="header-content">
+            <div class="title">
+                <span class="emoji">⭐</span>
+                <h1>GitHub Starred Repositories</h1>
+            </div>
+            <div class="stats-inline">
+                <div class="stat-inline">
+                    <div class="stat-number">{total_repos:,}</div>
+                    <div class="stat-label">Repos</div>
+                </div>
+                <div class="stat-inline">
+                    <div class="stat-number">{total_stars:,}</div>
+                    <div class="stat-label">Stars</div>
+                </div>
+                <div class="stat-inline">
+                    <div class="stat-number">{len(categories)}</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+                <div class="stat-inline">
+                    <div class="stat-number">{last_updated}</div>
+                    <div class="stat-label">Updated</div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <div class="stats">
-        <div class="stats-grid">
-            <div class="stat-box">
-                <div class="stat-number">{total_repos:,}</div>
-                <div class="stat-label">Total Repositories</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-number">{total_stars:,}</div>
-                <div class="stat-label">Total Stars Given</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-number">{len(categories)}</div>
-                <div class="stat-label">Categories</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-number">{last_updated}</div>
-                <div class="stat-label">Last Updated</div>
-            </div>
+    <div class="search-container">
+        <div class="search-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" placeholder="Search repositories..." onkeyup="searchTable()">
         </div>
     </div>
 
-    <div class="controls">
-        <input type="text" id="searchInput" placeholder="🔍 Search repositories by name, category, language, or description..." onkeyup="searchTable()">
-    </div>
-
-    <table id="repoTable">
-        <thead>
-            <tr>
-                <th onclick="sortTable(0)">Repository Name <span id="sort0" class="sort-indicator">🔽</span></th>
-                <th onclick="sortTable(1)">Category <span id="sort1" class="sort-indicator">🔽</span></th>
-                <th onclick="sortTable(2)">Stars ⭐ <span id="sort2" class="sort-indicator">🔽</span></th>
-                <th onclick="sortTable(3)">Language <span id="sort3" class="sort-indicator">🔽</span></th>
-                <th>Description</th>
-                <th onclick="sortTable(5)">Last Updated <span id="sort5" class="sort-indicator">🔽</span></th>
-            </tr>
-        </thead>
-        <tbody>
+    <div class="table-container">
+        <table id="repoTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)">Repository <span id="sort0" class="sort-indicator">🔽</span></th>
+                    <th onclick="sortTable(1)">Category <span id="sort1" class="sort-indicator">🔽</span></th>
+                    <th onclick="sortTable(2)">Stars <span id="sort2" class="sort-indicator">🔽</span></th>
+                    <th onclick="sortTable(3)">Language <span id="sort3" class="sort-indicator">🔽</span></th>
+                    <th>Description</th>
+                    <th onclick="sortTable(5)">Updated <span id="sort5" class="sort-indicator">🔽</span></th>
+                </tr>
+            </thead>
+            <tbody>
 '''
 
-    # Add repository rows
+    # Add repository rows with styled badges
     for repo in repos:
         html_content += f'''            <tr>
                 <td><a href="{repo['url']}" target="_blank">{repo['name']}</a></td>
-                <td>{repo['category']}</td>
-                <td>{repo['stars']:,}</td>
-                <td>{repo['language']}</td>
+                <td><span class="category-badge">{repo['category']}</span></td>
+                <td><span class="stars">{repo['stars']:,}</span></td>
+                <td><span class="language-badge">{repo['language']}</span></td>
                 <td>{repo['description']}</td>
                 <td>{repo['last_updated']}</td>
             </tr>
@@ -417,10 +606,10 @@ def generate_interactive_html(repos: List[Dict[str, str]]) -> None:
 </html>
 '''
 
-    with open('starred_repos.html', 'w', encoding='utf-8') as f:
+    with open('index.html', 'w', encoding='utf-8') as f:
         f.write(html_content)
 
-    print("Interactive HTML generated successfully!")
+    print("index.html generated successfully for GitHub Pages!")
 
 def generate_readme(repos: List[Dict[str, str]]) -> None:
     """Generate README.md with properly formatted table"""
@@ -467,11 +656,12 @@ def generate_readme(repos: List[Dict[str, str]]) -> None:
 
 For the full experience with **sortable columns** and **live search functionality**:
 
-- 🌐 **[Interactive HTML Table](./starred_repos.html)** - Download and open in your browser for sorting and searching
+- 🌐 **[Live GitHub Pages](https://ragilmalik.github.io/stars-repos/)** - Interactive web app with sorting and real-time search
 - 📊 **[Excel Spreadsheet](./starred_repos.xlsx)** - Full data with filters and sorting
+- 💾 **[Download HTML](./index.html)** - Offline version you can open locally
 
 > **Note**: GitHub doesn't support JavaScript in README files, so the table below is static.
-> Use the interactive HTML file above for sorting, filtering, and search features!
+> Visit the GitHub Pages link above for the full interactive experience!
 
 ---
 
@@ -536,7 +726,7 @@ For the full experience with **sortable columns** and **live search functionalit
             readme_content += f'''- [{repo['name']}]({repo['url']}) ⭐ {repo['stars']:,} - {desc_short}\n'''
 
         if len(cat_repos) > 20:
-            readme_content += f'''\n*...and {len(cat_repos) - 20} more. See [interactive HTML](./starred_repos.html) or [Excel file](./starred_repos.xlsx) for complete list.*\n'''
+            readme_content += f'''\n*...and {len(cat_repos) - 20} more. See [GitHub Pages](https://ragilmalik.github.io/stars-repos/) or [Excel file](./starred_repos.xlsx) for complete list.*\n'''
 
         readme_content += '\n'
 
@@ -570,7 +760,7 @@ Check out the **[TUTORIAL.md](./TUTORIAL.md)** for complete setup instructions!
 
 *Last generated: {last_updated}*
 
-[📊 View Interactive Version](./starred_repos.html) • [📥 Download Excel](./starred_repos.xlsx) • [📖 Setup Tutorial](./TUTORIAL.md)
+[🌐 Live Interactive View](https://ragilmalik.github.io/stars-repos/) • [📥 Download Excel](./starred_repos.xlsx) • [📖 Setup Tutorial](./TUTORIAL.md)
 
 </div>
 '''
@@ -657,9 +847,9 @@ def main():
 
     print("=" * 60)
     print("✅ All done! Files generated:")
-    print("  - README.md")
-    print("  - starred_repos.html (interactive)")
-    print("  - starred_repos.xlsx")
+    print("  - README.md (overview)")
+    print("  - index.html (GitHub Pages - interactive)")
+    print("  - starred_repos.xlsx (Excel data)")
     print("=" * 60)
 
 if __name__ == '__main__':

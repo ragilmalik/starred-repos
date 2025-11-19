@@ -101,7 +101,7 @@ python update_starred_repos.py
 
 This will create:
 - `README.md` - Overview with top 50 repos
-- `starred_repos.html` - Interactive sortable table with search
+- `index.html` - Interactive sortable table with search
 - `starred_repos.xlsx` - Excel file with all data
 
 ---
@@ -147,7 +147,7 @@ To manually trigger the workflow:
 Wait a few minutes and check:
 - The workflow completes successfully (green checkmark)
 - Your README.md is updated
-- Files `starred_repos.xlsx` and `starred_repos.html` are generated
+- Files `starred_repos.xlsx` and `index.html` are generated
 - A new commit appears in your repository
 
 ---
@@ -232,7 +232,7 @@ GITHUB_TOKEN=your_actual_token_here
 **This is expected behavior!** GitHub doesn't support JavaScript in README files for security reasons.
 
 **Solutions**:
-- Download and open `starred_repos.html` in your browser for full sorting functionality
+- Download and open `index.html` in your browser for full sorting functionality
 - Use the Excel file for advanced filtering and sorting
 - The README table is intentionally static and shows top 50 repos only
 
@@ -311,7 +311,7 @@ To track starred repos from multiple accounts:
 - All repos grouped by category (collapsible)
 - Links to interactive versions
 
-### starred_repos.html
+### index.html
 - **Fully interactive table** with JavaScript
 - **Click headers to sort** (repository name, category, stars, language, date)
 - **Live search** functionality
