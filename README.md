@@ -5,9 +5,9 @@
 ## 📊 Statistics
 
 - **Total Repositories**: 514
-- **Total Stars Given**: 10,221,441
+- **Total Stars Given**: 10,221,458
 - **Categories**: 24
-- **Last Updated**: 19-11-2025 04:35 UTC
+- **Last Updated**: 19-11-2025 04:37 UTC
 
 ### 📁 Category Distribution
 
@@ -75,7 +75,7 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/sindresorhus/awesome">sindresorhus/awesome</a></td>
 <td align="center">Other</td>
-<td align="center">415,841</td>
+<td align="center">415,842</td>
 <td align="center">None</td>
 <td>😎 Awesome lists about all kinds of interesting topics</td>
 <td align="center"><sub>19-11-2025 04:35</sub></td>
@@ -123,10 +123,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/trimstray/the-book-of-secret-knowledge">trimstray/the-book-of-secret-knowledge</a></td>
 <td align="center">DevOps</td>
-<td align="center">194,688</td>
+<td align="center">194,690</td>
 <td align="center">None</td>
 <td>A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools an...</td>
-<td align="center"><sub>19-11-2025 04:32</sub></td>
+<td align="center"><sub>19-11-2025 04:36</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/ohmyzsh/ohmyzsh">ohmyzsh/ohmyzsh</a></td>
@@ -139,18 +139,18 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/n8n-io/n8n">n8n-io/n8n</a></td>
 <td align="center">AI/ML</td>
-<td align="center">157,210</td>
+<td align="center">157,211</td>
 <td align="center">TypeScript</td>
 <td>Fair-code workflow automation platform with native AI capabilities. Combine visual building with ...</td>
-<td align="center"><sub>19-11-2025 04:32</sub></td>
+<td align="center"><sub>19-11-2025 04:37</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/massgravel/Microsoft-Activation-Scripts">massgravel/Microsoft-Activation-Scripts</a></td>
 <td align="center">Batchfile</td>
-<td align="center">156,643</td>
+<td align="center">156,644</td>
 <td align="center">Batchfile</td>
 <td>Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activatio...</td>
-<td align="center"><sub>19-11-2025 04:33</sub></td>
+<td align="center"><sub>19-11-2025 04:35</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/f/awesome-chatgpt-prompts">f/awesome-chatgpt-prompts</a></td>
@@ -275,18 +275,18 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></td>
 <td align="center">Backend</td>
-<td align="center">83,203</td>
+<td align="center">83,205</td>
 <td align="center">TypeScript</td>
 <td>An open-source AI agent that brings the power of Gemini directly into your terminal.</td>
-<td align="center"><sub>19-11-2025 04:33</sub></td>
+<td align="center"><sub>19-11-2025 04:37</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/microsoft/markitdown">microsoft/markitdown</a></td>
 <td align="center">AI/ML</td>
-<td align="center">83,099</td>
+<td align="center">83,100</td>
 <td align="center">Python</td>
 <td>Python tool for converting files and office documents to Markdown.</td>
-<td align="center"><sub>19-11-2025 04:23</sub></td>
+<td align="center"><sub>19-11-2025 04:37</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/MunGell/awesome-for-beginners">MunGell/awesome-for-beginners</a></td>
@@ -473,10 +473,10 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### AI/ML (164 repositories)
 
-- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ 157,210 - Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus...
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ 157,211 - Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus...
 - [open-webui/open-webui](https://github.com/open-webui/open-webui) ⭐ 115,597 - User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 - [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) ⭐ 88,041 - A Collection of application ideas which can be used to improve your coding skills.
-- [microsoft/markitdown](https://github.com/microsoft/markitdown) ⭐ 83,099 - Python tool for converting files and office documents to Markdown.
+- [microsoft/markitdown](https://github.com/microsoft/markitdown) ⭐ 83,100 - Python tool for converting files and office documents to Markdown.
 - [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) ⭐ 75,827 - real time face swap and one-click video deepfake with only a single image
 - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) ⭐ 70,384 - Hunt down social media accounts by username across social networks
 - [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐ 68,053 - 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data
@@ -487,7 +487,7 @@ For the full experience with **sortable columns** and **live search functionalit
 - [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) ⭐ 51,191 - The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, ...
 - [dockur/windows](https://github.com/dockur/windows) ⭐ 48,620 - Windows inside a Docker container.
 - [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ⭐ 47,818 - 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
-- [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) ⭐ 47,212 - Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-fr...
+- [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) ⭐ 47,213 - Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-fr...
 - [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip) ⭐ 42,620 - [Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用...
 - [janhq/jan](https://github.com/janhq/jan) ⭐ 39,349 - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
 - [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) ⭐ 39,056 - A privacy-first, self-hosted, fully open source personal knowledge management software, written in t...
@@ -510,7 +510,7 @@ For the full experience with **sortable columns** and **live search functionalit
 - [vinta/awesome-python](https://github.com/vinta/awesome-python) ⭐ 269,959 - An opinionated list of awesome Python frameworks, libraries, software and resources.
 - [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) ⭐ 136,642 - This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.
 - [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ⭐ 125,797 - Microsoft PowerToys is a collection of utilities that help you customize Windows and streamline ever...
-- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ⭐ 83,203 - An open-source AI agent that brings the power of Gemini directly into your terminal.
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ⭐ 83,205 - An open-source AI agent that brings the power of Gemini directly into your terminal.
 - [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) ⭐ 78,891 - Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource...
 - [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) ⭐ 59,557 - 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
 - [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) ⭐ 56,065 - 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discor...
@@ -531,7 +531,7 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Batchfile (3 repositories)
 
-- [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) ⭐ 156,643 - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation m...
+- [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) ⭐ 156,644 - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation m...
 - [WindowsAddict/IDM-Activation-Script](https://github.com/WindowsAddict/IDM-Activation-Script) ⭐ 7,318 - An open source tool to activate and reset trial of Internet Download Manager
 - [KnugiHK/WhatsApp-Key-DB-Extractor](https://github.com/KnugiHK/WhatsApp-Key-DB-Extractor) ⭐ 160 - Allows WhatsApp users to extract their cipher key and databases on non-rooted Android devices.
 
@@ -576,7 +576,7 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### DevOps (37 repositories)
 
-- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) ⭐ 194,688 - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and m...
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) ⭐ 194,690 - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and m...
 - [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) ⭐ 78,618 - A fancy self-hosted monitoring tool
 - [traefik/traefik](https://github.com/traefik/traefik) ⭐ 58,626 - The Cloud Native Application Proxy
 - [appwrite/appwrite](https://github.com/appwrite/appwrite) ⭐ 53,607 - The developers' cloud
@@ -654,7 +654,7 @@ For the full experience with **sortable columns** and **live search functionalit
 - [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ⭐ 102,691 - An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer...
 - [immich-app/immich](https://github.com/immich-app/immich) ⭐ 84,478 - High performance self-hosted photo and video management solution.
 - [Trinea/android-open-project](https://github.com/Trinea/android-open-project) ⭐ 31,826 - A categorized collection of Android Open Source Projects,  More powerful web version:
-- [MustardChef/WSABuilds](https://github.com/MustardChef/WSABuilds) ⭐ 13,520 - Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with ...
+- [MustardChef/WSABuilds](https://github.com/MustardChef/WSABuilds) ⭐ 13,521 - Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with ...
 - [milanvarady/Applite](https://github.com/milanvarady/Applite) ⭐ 5,886 - User-friendly GUI macOS application for Homebrew Casks
 - [TGX-Android/Telegram-X](https://github.com/TGX-Android/Telegram-X) ⭐ 4,863 - The main repository of Telegram X — official alternative Telegram client for Android.
 - [khcrysalis/Feather](https://github.com/khcrysalis/Feather) ⭐ 3,151 - Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Develo...
@@ -669,14 +669,14 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Other (32 repositories)
 
-- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) ⭐ 415,841 - 😎 Awesome lists about all kinds of interesting topics
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) ⭐ 415,842 - 😎 Awesome lists about all kinds of interesting topics
 - [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ⭐ 258,854 - A list of Free Software network services and web applications which can be hosted on your own server...
 - [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) ⭐ 79,838 - A list of awesome beginners-friendly projects.
 - [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) ⭐ 63,733 - :zap: Delightful Node.js packages and resources
 - [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ⭐ 56,772 - ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
 - [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) ⭐ 53,567 - A list of cool features of Git and GitHub.
 - [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) ⭐ 46,298 - 🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps
-- [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) ⭐ 44,053 - A curated list of free courses with certifications. Also available at https://free-certifications.co...
+- [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) ⭐ 44,054 - A curated list of free courses with certifications. Also available at https://free-certifications.co...
 - [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) ⭐ 40,952 - A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-py...
 - [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) ⭐ 28,436 - 😎 A curated list of awesome GitHub Profile which updates in real time
 - [sdras/awesome-actions](https://github.com/sdras/awesome-actions) ⭐ 27,094 - A curated list of awesome actions to use on GitHub
@@ -780,7 +780,7 @@ Check out the **[TUTORIAL.md](./TUTORIAL.md)** for complete setup instructions!
 
 **Made with ❤️ using Python and GitHub Actions**
 
-*Last generated: 19-11-2025 04:35 UTC*
+*Last generated: 19-11-2025 04:37 UTC*
 
 [📊 View Interactive Version](./starred_repos.html) • [📥 Download Excel](./starred_repos.xlsx) • [📖 Setup Tutorial](./TUTORIAL.md)
 
