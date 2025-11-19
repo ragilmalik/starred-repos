@@ -45,14 +45,14 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet README.md starred_repos.xlsx starred_repos.html || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet README.md starred_repos.xlsx index.html || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push changes
         if: steps.check_changes.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md starred_repos.xlsx starred_repos.html
+          git add README.md starred_repos.xlsx index.html
           git commit -m "🤖 Auto-update starred repositories - $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
 
