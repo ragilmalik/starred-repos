@@ -5,9 +5,9 @@
 ## 📊 Statistics
 
 - **Total Repositories**: 514
-- **Total Stars Given**: 10,221,420
+- **Total Stars Given**: 10,221,428
 - **Categories**: 24
-- **Last Updated**: 19-11-2025 04:27 UTC
+- **Last Updated**: 19-11-2025 04:29 UTC
 
 ### 📁 Category Distribution
 
@@ -67,10 +67,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/codecrafters-io/build-your-own-x">codecrafters-io/build-your-own-x</a></td>
 <td align="center">Markdown</td>
-<td align="center">440,007</td>
+<td align="center">440,008</td>
 <td align="center">Markdown</td>
 <td>Master programming by recreating your favorite technologies from scratch.</td>
-<td align="center"><sub>19-11-2025 04:20</sub></td>
+<td align="center"><sub>19-11-2025 04:28</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/sindresorhus/awesome">sindresorhus/awesome</a></td>
@@ -163,10 +163,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/yt-dlp/yt-dlp">yt-dlp/yt-dlp</a></td>
 <td align="center">CLI Tools</td>
-<td align="center">135,557</td>
+<td align="center">135,559</td>
 <td align="center">Python</td>
 <td>A feature-rich command-line audio/video downloader</td>
-<td align="center"><sub>19-11-2025 04:20</sub></td>
+<td align="center"><sub>19-11-2025 04:28</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/Genymobile/scrcpy">Genymobile/scrcpy</a></td>
@@ -278,7 +278,7 @@ For the full experience with **sortable columns** and **live search functionalit
 <td align="center">83,203</td>
 <td align="center">TypeScript</td>
 <td>An open-source AI agent that brings the power of Gemini directly into your terminal.</td>
-<td align="center"><sub>19-11-2025 04:26</sub></td>
+<td align="center"><sub>19-11-2025 04:28</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/microsoft/markitdown">microsoft/markitdown</a></td>
@@ -488,7 +488,7 @@ For the full experience with **sortable columns** and **live search functionalit
 - [dockur/windows](https://github.com/dockur/windows) ⭐ 48,620 - Windows inside a Docker container.
 - [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ⭐ 47,818 - 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
 - [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) ⭐ 47,212 - Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-fr...
-- [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip) ⭐ 42,619 - [Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用...
+- [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip) ⭐ 42,620 - [Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用...
 - [janhq/jan](https://github.com/janhq/jan) ⭐ 39,349 - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
 - [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) ⭐ 39,056 - A privacy-first, self-hosted, fully open source personal knowledge management software, written in t...
 - [mudler/LocalAI](https://github.com/mudler/LocalAI) ⭐ 38,774 - :robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first....
@@ -558,7 +558,7 @@ For the full experience with **sortable columns** and **live search functionalit
 ### CLI Tools (11 repositories)
 
 - [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ⭐ 182,827 - 🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configu...
-- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) ⭐ 135,557 - A feature-rich command-line audio/video downloader
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) ⭐ 135,559 - A feature-rich command-line audio/video downloader
 - [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) ⭐ 27,101 - A code-searching tool similar to ack, but faster.
 - [luong-komorebi/Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software) ⭐ 24,428 - 🐧 A list of awesome Linux softwares
 - [Powerlevel9k/powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k) ⭐ 13,444 - Powerlevel9k was a tool for building a beautiful and highly functional CLI, customized for you. P9k ...
@@ -646,7 +646,7 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Markdown (1 repositories)
 
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) ⭐ 440,007 - Master programming by recreating your favorite technologies from scratch.
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) ⭐ 440,008 - Master programming by recreating your favorite technologies from scratch.
 
 ### Mobile (16 repositories)
 
@@ -661,7 +661,7 @@ For the full experience with **sortable columns** and **live search functionalit
 - [Axorax/awesome-free-apps](https://github.com/Axorax/awesome-free-apps) ⭐ 3,142 - Curated list of the best free apps for PC and mobile
 - [Nain57/Smart-AutoClicker](https://github.com/Nain57/Smart-AutoClicker) ⭐ 2,962 - An open-source auto clicker on images for Android
 - [Sjj1024/PakePlus-iOS](https://github.com/Sjj1024/PakePlus-iOS) ⭐ 2,484 - Turn any webpage/Vue/React and so on into desktop and mobile app with easy in few minutes. 轻松将任意网站/V...
-- [rikkahub/rikkahub](https://github.com/rikkahub/rikkahub) ⭐ 2,430 - RikkaHub is an Android APP that supports for multiple LLM providers.
+- [rikkahub/rikkahub](https://github.com/rikkahub/rikkahub) ⭐ 2,431 - RikkaHub is an Android APP that supports for multiple LLM providers.
 - [Morsmalleo/AhMyth](https://github.com/Morsmalleo/AhMyth) ⭐ 1,117 - Cross-Platform Android Remote Administration Tool   Official maintained repository for the AhMyth R....
 - [KnugiHK/WhatsApp-Chat-Exporter](https://github.com/KnugiHK/WhatsApp-Chat-Exporter) ⭐ 858 - A cross-platform tool for parsing WhatsApp chat databases from Android and iOS/iPadOS backups. Suppo...
 - [ElDavoo/wa-crypt-tools](https://github.com/ElDavoo/wa-crypt-tools) ⭐ 855 - Manage WhatsApp .crypt12, .crypt14 and .crypt15 files.
@@ -676,7 +676,7 @@ For the full experience with **sortable columns** and **live search functionalit
 - [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ⭐ 56,772 - ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
 - [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) ⭐ 53,567 - A list of cool features of Git and GitHub.
 - [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) ⭐ 46,298 - 🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps
-- [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) ⭐ 44,050 - A curated list of free courses with certifications. Also available at https://free-certifications.co...
+- [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) ⭐ 44,051 - A curated list of free courses with certifications. Also available at https://free-certifications.co...
 - [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) ⭐ 40,952 - A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-py...
 - [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) ⭐ 28,436 - 😎 A curated list of awesome GitHub Profile which updates in real time
 - [sdras/awesome-actions](https://github.com/sdras/awesome-actions) ⭐ 27,094 - A curated list of awesome actions to use on GitHub
@@ -744,7 +744,7 @@ For the full experience with **sortable columns** and **live search functionalit
 - [sdelements/lets-chat](https://github.com/sdelements/lets-chat) ⭐ 9,821 - Self-hosted chat app for small teams
 - [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) ⭐ 9,568 - Spec-driven development for AI coding assistants.
 - [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome) ⭐ 9,284 - Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your ...
-- [NopeCHALLC/nopecha-extension](https://github.com/NopeCHALLC/nopecha-extension) ⭐ 8,945 - Automated CAPTCHA solver for your browser. Works with Selenium, Puppeteer, Playwright, and more.
+- [NopeCHALLC/nopecha-extension](https://github.com/NopeCHALLC/nopecha-extension) ⭐ 8,946 - Automated CAPTCHA solver for your browser. Works with Selenium, Puppeteer, Playwright, and more.
 - [Nutlope/llamacoder](https://github.com/Nutlope/llamacoder) ⭐ 6,724 - Open source Claude Artifacts – built with Llama 3.1 405B
 - [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) ⭐ 6,374 - Desktop App for downloading Videos and Audios from hundreds of sites
 - [pawelmalak/flame](https://github.com/pawelmalak/flame) ⭐ 6,100 - Flame is self-hosted startpage for your server. Easily manage your apps and bookmarks with built-in ...
@@ -780,7 +780,7 @@ Check out the **[TUTORIAL.md](./TUTORIAL.md)** for complete setup instructions!
 
 **Made with ❤️ using Python and GitHub Actions**
 
-*Last generated: 19-11-2025 04:27 UTC*
+*Last generated: 19-11-2025 04:29 UTC*
 
 [📊 View Interactive Version](./starred_repos.html) • [📥 Download Excel](./starred_repos.xlsx) • [📖 Setup Tutorial](./TUTORIAL.md)
 
