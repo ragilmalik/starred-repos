@@ -767,7 +767,7 @@ This repository is automatically updated **daily at 00:00 UTC** using GitHub Act
 **What gets updated:**
 - ✅ All 528 starred repositories (with pagination support)
 - ✅ Star counts and update dates
-- ✅ New repositories you star
+- ✅ New starred repositories
 - ✅ Category statistics and analytics
 - ✅ README.md, Excel file, and Interactive HTML
 
