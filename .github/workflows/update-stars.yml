@@ -20,11 +20,19 @@ permissions:
 
 jobs:
   update-stars:
-    runs-on: ubuntu-latest
-
+    runs-on: namespace-profile-ragilmalik-linux
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Check System Info
+        run: |
+          echo "Running on Namespace.so infrastructure"
+          echo "OS Info:"
+          cat /etc/os-release
+          echo "CPU Info:"
+          lscpu
 
       - name: Set up Python
         uses: actions/setup-python@v4
