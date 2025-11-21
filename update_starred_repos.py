@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 GitHub Starred Repositories Tracker
-Fetches all starred repositories and generates README.md, Excel, and Interactive HTML
+Fetches all starred repositories and generates README.md, Excel, and Interactive HTML automatically!
 """
 
 import os
@@ -628,7 +628,7 @@ def generate_readme(repos: List[Dict[str, str]]) -> None:
 
     readme_content = f'''# 🌟 My GitHub Starred Repositories
 
-> Automatically updated list of all my starred repositories on GitHub
+> List of all my starred repositories on GitHub, updated and generated automatically!
 
 ## 📊 Statistics
 
@@ -656,7 +656,7 @@ def generate_readme(repos: List[Dict[str, str]]) -> None:
 
 For the full experience with **sortable columns** and **live search functionality**:
 
-- 🌐 **[Live GitHub Pages](https://ragilmalik.github.io/stars-repos/)** - Interactive web app with sorting and real-time search
+- 🌐 **[Live GitHub Pages](https://github.ragilmalik.com/starred-repos)** - Interactive web app with sorting and real-time search
 - 📊 **[Excel Spreadsheet](./starred_repos.xlsx)** - Full data with filters and sorting
 - 💾 **[Download HTML](./index.html)** - Offline version you can open locally
 
@@ -741,10 +741,10 @@ This repository is automatically updated **daily at 00:00 UTC** using GitHub Act
 
 **What gets updated:**
 - ✅ All {total_repos:,} starred repositories (with pagination support)
-- ✅ Star counts and update dates
-- ✅ New repositories you star
+- ✅ Star counts and last updated time
+- ✅ All newly added repositories
 - ✅ Category statistics and analytics
-- ✅ README.md, Excel file, and Interactive HTML
+- ✅ README.md (generated automatically), Excel file, and Interactive HTML
 
 ---
 
@@ -760,7 +760,7 @@ Check out the **[TUTORIAL.md](./TUTORIAL.md)** for complete setup instructions!
 
 *Last generated: {last_updated}*
 
-[🌐 Live Interactive View](https://ragilmalik.github.io/stars-repos/) • [📥 Download Excel](./starred_repos.xlsx) • [📖 Setup Tutorial](./TUTORIAL.md)
+[🌐 Live Interactive View](https://github.ragilmalik.com/starred-repos) • [📥 Download Excel](./starred_repos.xlsx) • [📖 Setup Tutorial](./TUTORIAL.md)
 
 </div>
 '''
