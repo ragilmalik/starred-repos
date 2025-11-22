@@ -5,9 +5,9 @@
 ## 📊 Statistics
 
 - **Total Repositories**: 528
-- **Total Stars Given**: 10,524,242
+- **Total Stars Given**: 10,524,256
 - **Categories**: 24
-- **Last Updated**: 22-11-2025 04:18 UTC
+- **Last Updated**: 22-11-2025 04:20 UTC
 
 ### 📁 Category Distribution
 
@@ -68,10 +68,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/codecrafters-io/build-your-own-x">codecrafters-io/build-your-own-x</a></td>
 <td align="center">Markdown</td>
-<td align="center">441,444</td>
+<td align="center">441,445</td>
 <td align="center">Markdown</td>
 <td>Master programming by recreating your favorite technologies from scratch.</td>
-<td align="center"><sub>22-11-2025 04:12</sub></td>
+<td align="center"><sub>22-11-2025 04:20</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/sindresorhus/awesome">sindresorhus/awesome</a></td>
@@ -84,10 +84,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/public-apis/public-apis">public-apis/public-apis</a></td>
 <td align="center">Backend</td>
-<td align="center">379,995</td>
+<td align="center">379,996</td>
 <td align="center">Python</td>
 <td>A collective list of free APIs</td>
-<td align="center"><sub>22-11-2025 04:06</sub></td>
+<td align="center"><sub>22-11-2025 04:18</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/vinta/awesome-python">vinta/awesome-python</a></td>
@@ -124,10 +124,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/trimstray/the-book-of-secret-knowledge">trimstray/the-book-of-secret-knowledge</a></td>
 <td align="center">DevOps</td>
-<td align="center">195,122</td>
+<td align="center">195,123</td>
 <td align="center">None</td>
 <td>A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools an...</td>
-<td align="center"><sub>22-11-2025 03:55</sub></td>
+<td align="center"><sub>22-11-2025 04:20</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/ohmyzsh/ohmyzsh">ohmyzsh/ohmyzsh</a></td>
@@ -148,10 +148,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/massgravel/Microsoft-Activation-Scripts">massgravel/Microsoft-Activation-Scripts</a></td>
 <td align="center">Batchfile</td>
-<td align="center">157,014</td>
+<td align="center">157,015</td>
 <td align="center">Batchfile</td>
 <td>Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activatio...</td>
-<td align="center"><sub>22-11-2025 04:16</sub></td>
+<td align="center"><sub>22-11-2025 04:18</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/f/awesome-chatgpt-prompts">f/awesome-chatgpt-prompts</a></td>
@@ -164,10 +164,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/yt-dlp/yt-dlp">yt-dlp/yt-dlp</a></td>
 <td align="center">CLI Tools</td>
-<td align="center">135,875</td>
+<td align="center">135,876</td>
 <td align="center">Python</td>
 <td>A feature-rich command-line audio/video downloader</td>
-<td align="center"><sub>22-11-2025 04:15</sub></td>
+<td align="center"><sub>22-11-2025 04:20</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/Genymobile/scrcpy">Genymobile/scrcpy</a></td>
@@ -284,10 +284,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></td>
 <td align="center">Backend</td>
-<td align="center">83,950</td>
+<td align="center">83,951</td>
 <td align="center">TypeScript</td>
 <td>An open-source AI agent that brings the power of Gemini directly into your terminal.</td>
-<td align="center"><sub>22-11-2025 04:14</sub></td>
+<td align="center"><sub>22-11-2025 04:19</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/microsoft/markitdown">microsoft/markitdown</a></td>
@@ -332,10 +332,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/hacksider/Deep-Live-Cam">hacksider/Deep-Live-Cam</a></td>
 <td align="center">AI/ML</td>
-<td align="center">75,897</td>
+<td align="center">75,898</td>
 <td align="center">Python</td>
 <td>real time face swap and one-click video deepfake with only a single image</td>
-<td align="center"><sub>22-11-2025 04:08</sub></td>
+<td align="center"><sub>22-11-2025 04:20</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/sherlock-project/sherlock">sherlock-project/sherlock</a></td>
@@ -348,10 +348,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a></td>
 <td align="center">AI/ML</td>
-<td align="center">68,287</td>
+<td align="center">68,288</td>
 <td align="center">TypeScript</td>
 <td>🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data</td>
-<td align="center"><sub>22-11-2025 03:50</sub></td>
+<td align="center"><sub>22-11-2025 04:19</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/lobehub/lobe-chat">lobehub/lobe-chat</a></td>
@@ -478,9 +478,9 @@ For the full experience with **sortable columns** and **live search functionalit
 - [open-webui/open-webui](https://github.com/open-webui/open-webui) ⭐ 115,894 - User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 - [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) ⭐ 88,185 - A Collection of application ideas which can be used to improve your coding skills.
 - [microsoft/markitdown](https://github.com/microsoft/markitdown) ⭐ 83,196 - Python tool for converting files and office documents to Markdown.
-- [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) ⭐ 75,897 - real time face swap and one-click video deepfake with only a single image
+- [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) ⭐ 75,898 - real time face swap and one-click video deepfake with only a single image
 - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) ⭐ 70,465 - Hunt down social media accounts by username across social networks
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐ 68,287 - 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐ 68,288 - 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data
 - [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) ⭐ 67,932 - 🤯 LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowle...
 - [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) ⭐ 66,813 - The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
 - [xtekky/gpt4free](https://github.com/xtekky/gpt4free) ⭐ 65,563 - The official gpt4free repository   various collection of powerful language models   o4, o3 and deeps...
@@ -507,17 +507,17 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Backend (102 repositories)
 
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) ⭐ 379,995 - A collective list of free APIs
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) ⭐ 379,996 - A collective list of free APIs
 - [vinta/awesome-python](https://github.com/vinta/awesome-python) ⭐ 270,460 - An opinionated list of awesome Python frameworks, libraries, software and resources.
 - [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) ⭐ 136,764 - This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.
 - [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ⭐ 125,896 - Microsoft PowerToys is a collection of utilities that help you customize Windows and streamline ever...
-- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ⭐ 83,950 - An open-source AI agent that brings the power of Gemini directly into your terminal.
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ⭐ 83,951 - An open-source AI agent that brings the power of Gemini directly into your terminal.
 - [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) ⭐ 79,376 - Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource...
 - [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) ⭐ 76,999 - :zap: Dynamically generated stats for your github readmes
 - [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) ⭐ 59,605 - 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
 - [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) ⭐ 56,211 - 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discor...
 - [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) ⭐ 47,893 - The lazier way to manage everything docker
-- [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows) ⭐ 43,207 - all of the workflows of n8n i could find (also from the site itself)
+- [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows) ⭐ 43,208 - all of the workflows of n8n i could find (also from the site itself)
 - [gto76/python-cheatsheet](https://github.com/gto76/python-cheatsheet) ⭐ 37,953 - Comprehensive Python Cheatsheet
 - [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) ⭐ 35,499 - Instant voice cloning by MIT and MyShell. Audio foundation model.
 - [chatanywhere/GPT_API_free](https://github.com/chatanywhere/GPT_API_free) ⭐ 34,503 - Free ChatGPT&DeepSeek API Key，免费ChatGPT&DeepSeek API。免费接入DeepSeek API和GPT4 API，支持 gpt   deepseek   c...
@@ -532,7 +532,7 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Batchfile (3 repositories)
 
-- [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) ⭐ 157,014 - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation m...
+- [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) ⭐ 157,015 - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation m...
 - [WindowsAddict/IDM-Activation-Script](https://github.com/WindowsAddict/IDM-Activation-Script) ⭐ 7,321 - An open source tool to activate and reset trial of Internet Download Manager
 - [KnugiHK/WhatsApp-Key-DB-Extractor](https://github.com/KnugiHK/WhatsApp-Key-DB-Extractor) ⭐ 160 - Allows WhatsApp users to extract their cipher key and databases on non-rooted Android devices.
 
@@ -559,7 +559,7 @@ For the full experience with **sortable columns** and **live search functionalit
 ### CLI Tools (11 repositories)
 
 - [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ⭐ 182,891 - 🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configu...
-- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) ⭐ 135,875 - A feature-rich command-line audio/video downloader
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) ⭐ 135,876 - A feature-rich command-line audio/video downloader
 - [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) ⭐ 27,110 - A code-searching tool similar to ack, but faster.
 - [luong-komorebi/Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software) ⭐ 24,439 - 🐧 A list of awesome Linux softwares
 - [Powerlevel9k/powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k) ⭐ 13,444 - Powerlevel9k was a tool for building a beautiful and highly functional CLI, customized for you. P9k ...
@@ -578,7 +578,7 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### DevOps (37 repositories)
 
-- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) ⭐ 195,122 - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and m...
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) ⭐ 195,123 - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and m...
 - [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) ⭐ 78,751 - A fancy self-hosted monitoring tool
 - [traefik/traefik](https://github.com/traefik/traefik) ⭐ 58,961 - The Cloud Native Application Proxy
 - [appwrite/appwrite](https://github.com/appwrite/appwrite) ⭐ 53,633 - The developers' cloud
@@ -648,7 +648,7 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Markdown (1 repositories)
 
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) ⭐ 441,444 - Master programming by recreating your favorite technologies from scratch.
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) ⭐ 441,445 - Master programming by recreating your favorite technologies from scratch.
 
 ### Mobile (17 repositories)
 
@@ -783,7 +783,7 @@ Check out the **[TUTORIAL.md](./TUTORIAL.md)** for complete setup instructions!
 
 **Made with ❤️ using Python and GitHub Actions**
 
-*Last generated: 22-11-2025 04:18 UTC*
+*Last generated: 22-11-2025 04:20 UTC*
 
 [🌐 Live Interactive View](https://github.ragilmalik.com/starred-repos) • [📥 Download Excel](./starred_repos.xlsx) • [📖 Setup Tutorial](./TUTORIAL.md)
 
