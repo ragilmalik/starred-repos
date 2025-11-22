@@ -552,6 +552,50 @@ def generate_interactive_html(repos: List[Dict[str, str]]) -> None:
         ::-webkit-scrollbar-thumb:hover {{
             background: #333;
         }}
+
+        /* Back to Top Button */
+        .back-to-top {{
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 40px;
+            height: 40px;
+            background: rgba(30, 30, 30, 0.8);
+            border: 1px solid rgba(96, 165, 250, 0.3);
+            border-radius: 8px;
+            color: #60a5fa;
+            font-size: 1.25rem;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(8px);
+        }}
+
+        .back-to-top:hover {{
+            background: rgba(96, 165, 250, 0.2);
+            border-color: #60a5fa;
+            transform: translateY(-2px);
+        }}
+
+        .back-to-top.visible {{
+            opacity: 1;
+            visibility: visible;
+        }}
+
+        @media (max-width: 768px) {{
+            .back-to-top {{
+                bottom: 1rem;
+                right: 1rem;
+                width: 36px;
+                height: 36px;
+                font-size: 1rem;
+            }}
+        }}
     </style>
 </head>
 <body>
@@ -684,7 +728,24 @@ def generate_interactive_html(repos: List[Dict[str, str]]) -> None:
 
         // Initialize - sort by stars (already sorted in Python, but show indicator)
         sortDirection[2] = false; // Will toggle to true on first click
+
+        // Back to Top Button
+        const backToTop = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
     </script>
+
+    <button id="backToTop" class="back-to-top" title="Back to top">↑</button>
 </body>
 </html>
 '''

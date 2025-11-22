@@ -302,6 +302,50 @@
         ::-webkit-scrollbar-thumb:hover {
             background: #333;
         }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 40px;
+            height: 40px;
+            background: rgba(30, 30, 30, 0.8);
+            border: 1px solid rgba(96, 165, 250, 0.3);
+            border-radius: 8px;
+            color: #60a5fa;
+            font-size: 1.25rem;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(8px);
+        }
+
+        .back-to-top:hover {
+            background: rgba(96, 165, 250, 0.2);
+            border-color: #60a5fa;
+            transform: translateY(-2px);
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        @media (max-width: 768px) {
+            .back-to-top {
+                bottom: 1rem;
+                right: 1rem;
+                width: 36px;
+                height: 36px;
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -317,7 +361,7 @@
                     <div class="stat-label">Repos</div>
                 </div>
                 <div class="stat-inline">
-                    <div class="stat-number">10,524,186</div>
+                    <div class="stat-number">10,524,256</div>
                     <div class="stat-label">Stars</div>
                 </div>
                 <div class="stat-inline">
@@ -325,7 +369,7 @@
                     <div class="stat-label">Categories</div>
                 </div>
                 <div class="stat-inline">
-                    <div class="stat-number">22-11-2025 04:02 UTC</div>
+                    <div class="stat-number">22-11-2025 04:20 UTC</div>
                     <div class="stat-label">Updated</div>
                 </div>
             </div>
@@ -355,34 +399,34 @@
             <tr>
                 <td><a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank">codecrafters-io/build-your-own-x</a></td>
                 <td><span class="category-badge">Markdown</span></td>
-                <td><span class="stars">441,440</span></td>
+                <td><span class="stars">441,445</span></td>
                 <td><span class="language-badge">Markdown</span></td>
                 <td>Master programming by recreating your favorite technologies from scratch.</td>
-                <td>22-11-2025 03:55</td>
+                <td>22-11-2025 04:20</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/sindresorhus/awesome" target="_blank">sindresorhus/awesome</a></td>
                 <td><span class="category-badge">Other</span></td>
-                <td><span class="stars">416,611</span></td>
+                <td><span class="stars">416,613</span></td>
                 <td><span class="language-badge">None</span></td>
                 <td>😎 Awesome lists about all kinds of interesting topics</td>
-                <td>22-11-2025 04:01</td>
+                <td>22-11-2025 04:13</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/public-apis/public-apis" target="_blank">public-apis/public-apis</a></td>
                 <td><span class="category-badge">Backend</span></td>
-                <td><span class="stars">379,993</span></td>
+                <td><span class="stars">379,996</span></td>
                 <td><span class="language-badge">Python</span></td>
                 <td>A collective list of free APIs</td>
-                <td>22-11-2025 03:49</td>
+                <td>22-11-2025 04:18</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/vinta/awesome-python" target="_blank">vinta/awesome-python</a></td>
                 <td><span class="category-badge">Backend</span></td>
-                <td><span class="stars">270,459</span></td>
+                <td><span class="stars">270,460</span></td>
                 <td><span class="language-badge">Python</span></td>
                 <td>An opinionated list of awesome Python frameworks, libraries, software and resources.</td>
-                <td>22-11-2025 03:54</td>
+                <td>22-11-2025 04:07</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/awesome-selfhosted/awesome-selfhosted" target="_blank">awesome-selfhosted/awesome-selfhosted</a></td>
@@ -395,26 +439,26 @@
             <tr>
                 <td><a href="https://github.com/practical-tutorials/project-based-learning" target="_blank">practical-tutorials/project-based-learning</a></td>
                 <td><span class="category-badge">Frontend</span></td>
-                <td><span class="stars">250,558</span></td>
+                <td><span class="stars">250,559</span></td>
                 <td><span class="language-badge">None</span></td>
                 <td>Curated list of project-based tutorials</td>
-                <td>22-11-2025 03:49</td>
+                <td>22-11-2025 04:06</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/ossu/computer-science" target="_blank">ossu/computer-science</a></td>
                 <td><span class="category-badge">Web Development</span></td>
-                <td><span class="stars">198,027</span></td>
+                <td><span class="stars">198,028</span></td>
                 <td><span class="language-badge">HTML</span></td>
                 <td>🎓 Path to a free self-taught education in Computer Science!</td>
-                <td>22-11-2025 03:07</td>
+                <td>22-11-2025 04:13</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/trimstray/the-book-of-secret-knowledge" target="_blank">trimstray/the-book-of-secret-knowledge</a></td>
                 <td><span class="category-badge">DevOps</span></td>
-                <td><span class="stars">195,122</span></td>
+                <td><span class="stars">195,123</span></td>
                 <td><span class="language-badge">None</span></td>
                 <td>A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.</td>
-                <td>22-11-2025 03:55</td>
+                <td>22-11-2025 04:20</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/ohmyzsh/ohmyzsh" target="_blank">ohmyzsh/ohmyzsh</a></td>
@@ -427,18 +471,18 @@
             <tr>
                 <td><a href="https://github.com/n8n-io/n8n" target="_blank">n8n-io/n8n</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">157,868</span></td>
+                <td><span class="stars">157,869</span></td>
                 <td><span class="language-badge">TypeScript</span></td>
                 <td>Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.</td>
-                <td>22-11-2025 03:52</td>
+                <td>22-11-2025 04:07</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/massgravel/Microsoft-Activation-Scripts" target="_blank">massgravel/Microsoft-Activation-Scripts</a></td>
                 <td><span class="category-badge">Batchfile</span></td>
-                <td><span class="stars">157,011</span></td>
+                <td><span class="stars">157,015</span></td>
                 <td><span class="language-badge">Batchfile</span></td>
                 <td>Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.</td>
-                <td>22-11-2025 04:01</td>
+                <td>22-11-2025 04:18</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/f/awesome-chatgpt-prompts" target="_blank">f/awesome-chatgpt-prompts</a></td>
@@ -451,10 +495,10 @@
             <tr>
                 <td><a href="https://github.com/yt-dlp/yt-dlp" target="_blank">yt-dlp/yt-dlp</a></td>
                 <td><span class="category-badge">CLI Tools</span></td>
-                <td><span class="stars">135,874</span></td>
+                <td><span class="stars">135,876</span></td>
                 <td><span class="language-badge">Python</span></td>
                 <td>A feature-rich command-line audio/video downloader</td>
-                <td>22-11-2025 03:49</td>
+                <td>22-11-2025 04:20</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/Genymobile/scrcpy" target="_blank">Genymobile/scrcpy</a></td>
@@ -483,18 +527,18 @@
             <tr>
                 <td><a href="https://github.com/justjavac/free-programming-books-zh_CN" target="_blank">justjavac/free-programming-books-zh_CN</a></td>
                 <td><span class="category-badge">Frontend</span></td>
-                <td><span class="stars">115,729</span></td>
+                <td><span class="stars">115,730</span></td>
                 <td><span class="language-badge">None</span></td>
                 <td>:books: 免费的计算机编程类中文书籍，欢迎投稿</td>
-                <td>22-11-2025 03:17</td>
+                <td>22-11-2025 04:13</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/ripienaar/free-for-dev" target="_blank">ripienaar/free-for-dev</a></td>
                 <td><span class="category-badge">Web Development</span></td>
-                <td><span class="stars">115,450</span></td>
+                <td><span class="stars">115,451</span></td>
                 <td><span class="language-badge">HTML</span></td>
                 <td>A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev</td>
-                <td>22-11-2025 03:57</td>
+                <td>22-11-2025 04:11</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/rustdesk/rustdesk" target="_blank">rustdesk/rustdesk</a></td>
@@ -507,10 +551,10 @@
             <tr>
                 <td><a href="https://github.com/iptv-org/iptv" target="_blank">iptv-org/iptv</a></td>
                 <td><span class="category-badge">Web Development</span></td>
-                <td><span class="stars">102,437</span></td>
+                <td><span class="stars">102,439</span></td>
                 <td><span class="language-badge">TypeScript</span></td>
                 <td>Collection of publicly available IPTV channels from all over the world</td>
-                <td>22-11-2025 03:48</td>
+                <td>22-11-2025 04:06</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/Hack-with-Github/Awesome-Hacking" target="_blank">Hack-with-Github/Awesome-Hacking</a></td>
@@ -523,10 +567,10 @@
             <tr>
                 <td><a href="https://github.com/jaywcjlove/awesome-mac" target="_blank">jaywcjlove/awesome-mac</a></td>
                 <td><span class="category-badge">Web Development</span></td>
-                <td><span class="stars">93,784</span></td>
+                <td><span class="stars">93,785</span></td>
                 <td><span class="language-badge">JavaScript</span></td>
                 <td> Now we have become very big, Different from the original idea. Collect premium software in various categories.</td>
-                <td>22-11-2025 03:41</td>
+                <td>22-11-2025 04:04</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/puppeteer/puppeteer" target="_blank">puppeteer/puppeteer</a></td>
@@ -563,18 +607,18 @@
             <tr>
                 <td><a href="https://github.com/immich-app/immich" target="_blank">immich-app/immich</a></td>
                 <td><span class="category-badge">Mobile</span></td>
-                <td><span class="stars">84,712</span></td>
+                <td><span class="stars">84,713</span></td>
                 <td><span class="language-badge">TypeScript</span></td>
                 <td>High performance self-hosted photo and video management solution.</td>
-                <td>22-11-2025 03:43</td>
+                <td>22-11-2025 04:04</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/google-gemini/gemini-cli" target="_blank">google-gemini/gemini-cli</a></td>
                 <td><span class="category-badge">Backend</span></td>
-                <td><span class="stars">83,948</span></td>
+                <td><span class="stars">83,951</span></td>
                 <td><span class="language-badge">TypeScript</span></td>
                 <td>An open-source AI agent that brings the power of Gemini directly into your terminal.</td>
-                <td>22-11-2025 03:50</td>
+                <td>22-11-2025 04:19</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/microsoft/markitdown" target="_blank">microsoft/markitdown</a></td>
@@ -603,10 +647,10 @@
             <tr>
                 <td><a href="https://github.com/louislam/uptime-kuma" target="_blank">louislam/uptime-kuma</a></td>
                 <td><span class="category-badge">DevOps</span></td>
-                <td><span class="stars">78,750</span></td>
+                <td><span class="stars">78,751</span></td>
                 <td><span class="language-badge">JavaScript</span></td>
                 <td>A fancy self-hosted monitoring tool</td>
-                <td>22-11-2025 02:49</td>
+                <td>22-11-2025 04:14</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">anuraghazra/github-readme-stats</a></td>
@@ -619,10 +663,10 @@
             <tr>
                 <td><a href="https://github.com/hacksider/Deep-Live-Cam" target="_blank">hacksider/Deep-Live-Cam</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">75,896</span></td>
+                <td><span class="stars">75,898</span></td>
                 <td><span class="language-badge">Python</span></td>
                 <td>real time face swap and one-click video deepfake with only a single image</td>
-                <td>22-11-2025 03:51</td>
+                <td>22-11-2025 04:20</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/sherlock-project/sherlock" target="_blank">sherlock-project/sherlock</a></td>
@@ -635,10 +679,10 @@
             <tr>
                 <td><a href="https://github.com/firecrawl/firecrawl" target="_blank">firecrawl/firecrawl</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">68,287</span></td>
+                <td><span class="stars">68,288</span></td>
                 <td><span class="language-badge">TypeScript</span></td>
                 <td>🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data</td>
-                <td>22-11-2025 03:50</td>
+                <td>22-11-2025 04:19</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/lobehub/lobe-chat" target="_blank">lobehub/lobe-chat</a></td>
@@ -683,10 +727,10 @@
             <tr>
                 <td><a href="https://github.com/traefik/traefik" target="_blank">traefik/traefik</a></td>
                 <td><span class="category-badge">DevOps</span></td>
-                <td><span class="stars">58,960</span></td>
+                <td><span class="stars">58,961</span></td>
                 <td><span class="language-badge">Go</span></td>
                 <td>The Cloud Native Application Proxy</td>
-                <td>22-11-2025 03:53</td>
+                <td>22-11-2025 04:05</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/PlexPt/awesome-chatgpt-prompts-zh" target="_blank">PlexPt/awesome-chatgpt-prompts-zh</a></td>
@@ -707,10 +751,10 @@
             <tr>
                 <td><a href="https://github.com/rclone/rclone" target="_blank">rclone/rclone</a></td>
                 <td><span class="category-badge">Frontend</span></td>
-                <td><span class="stars">53,638</span></td>
+                <td><span class="stars">53,639</span></td>
                 <td><span class="language-badge">Go</span></td>
                 <td>"rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files</td>
-                <td>22-11-2025 03:47</td>
+                <td>22-11-2025 04:16</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/appwrite/appwrite" target="_blank">appwrite/appwrite</a></td>
@@ -755,10 +799,10 @@
             <tr>
                 <td><a href="https://github.com/Mintplex-Labs/anything-llm" target="_blank">Mintplex-Labs/anything-llm</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">51,323</span></td>
+                <td><span class="stars">51,324</span></td>
                 <td><span class="language-badge">JavaScript</span></td>
                 <td>The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.</td>
-                <td>22-11-2025 03:58</td>
+                <td>22-11-2025 04:12</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/dockur/windows" target="_blank">dockur/windows</a></td>
@@ -766,7 +810,7 @@
                 <td><span class="stars">48,686</span></td>
                 <td><span class="language-badge">Shell</span></td>
                 <td>Windows inside a Docker container.</td>
-                <td>22-11-2025 03:22</td>
+                <td>22-11-2025 04:02</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/jesseduffield/lazydocker" target="_blank">jesseduffield/lazydocker</a></td>
@@ -803,10 +847,10 @@
             <tr>
                 <td><a href="https://github.com/pathwaycom/llm-app" target="_blank">pathwaycom/llm-app</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">47,433</span></td>
+                <td><span class="stars">47,435</span></td>
                 <td><span class="language-badge">Jupyter Notebook</span></td>
                 <td>Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs,...</td>
-                <td>22-11-2025 03:29</td>
+                <td>22-11-2025 04:13</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/serhii-londar/open-source-mac-os-apps" target="_blank">serhii-londar/open-source-mac-os-apps</a></td>
@@ -827,18 +871,18 @@
             <tr>
                 <td><a href="https://github.com/cloudcommunity/Free-Certifications" target="_blank">cloudcommunity/Free-Certifications</a></td>
                 <td><span class="category-badge">Other</span></td>
-                <td><span class="stars">44,406</span></td>
+                <td><span class="stars">44,407</span></td>
                 <td><span class="language-badge">None</span></td>
                 <td>A curated list of free courses with certifications. Also available at https://free-certifications.com/</td>
-                <td>22-11-2025 03:50</td>
+                <td>22-11-2025 04:07</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/Zie619/n8n-workflows" target="_blank">Zie619/n8n-workflows</a></td>
                 <td><span class="category-badge">Backend</span></td>
-                <td><span class="stars">43,205</span></td>
+                <td><span class="stars">43,208</span></td>
                 <td><span class="language-badge">Python</span></td>
                 <td>all of the workflows of n8n i could find (also from the site itself)</td>
-                <td>22-11-2025 03:57</td>
+                <td>22-11-2025 04:19</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/yeongpin/cursor-free-vip" target="_blank">yeongpin/cursor-free-vip</a></td>
@@ -926,7 +970,7 @@
                 <td><span class="stars">37,383</span></td>
                 <td><span class="language-badge">JavaScript</span></td>
                 <td>🌐 The Internet Computer! Free, Open-Source, and Self-Hostable.</td>
-                <td>22-11-2025 03:40</td>
+                <td>22-11-2025 04:09</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/ToolJet/ToolJet" target="_blank">ToolJet/ToolJet</a></td>
@@ -947,10 +991,10 @@
             <tr>
                 <td><a href="https://github.com/CherryHQ/cherry-studio" target="_blank">CherryHQ/cherry-studio</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">35,656</span></td>
+                <td><span class="stars">35,658</span></td>
                 <td><span class="language-badge">TypeScript</span></td>
                 <td>🍒 Cherry Studio is a desktop client that supports for multiple LLM providers.</td>
-                <td>22-11-2025 03:27</td>
+                <td>22-11-2025 04:17</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/myshell-ai/OpenVoice" target="_blank">myshell-ai/OpenVoice</a></td>
@@ -1043,10 +1087,10 @@
             <tr>
                 <td><a href="https://github.com/BerriAI/litellm" target="_blank">BerriAI/litellm</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">31,440</span></td>
+                <td><span class="stars">31,441</span></td>
                 <td><span class="language-badge">Python</span></td>
                 <td>Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthr...</td>
-                <td>22-11-2025 04:01</td>
+                <td>22-11-2025 04:06</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/firecracker-microvm/firecracker" target="_blank">firecracker-microvm/firecracker</a></td>
@@ -1155,10 +1199,10 @@
             <tr>
                 <td><a href="https://github.com/facebook/zstd" target="_blank">facebook/zstd</a></td>
                 <td><span class="category-badge">C</span></td>
-                <td><span class="stars">26,072</span></td>
+                <td><span class="stars">26,073</span></td>
                 <td><span class="language-badge">C</span></td>
                 <td>Zstandard - Fast real-time compression algorithm</td>
-                <td>22-11-2025 03:05</td>
+                <td>22-11-2025 04:13</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/openfaas/faas" target="_blank">openfaas/faas</a></td>
@@ -1187,10 +1231,10 @@
             <tr>
                 <td><a href="https://github.com/cloudreve/cloudreve" target="_blank">cloudreve/cloudreve</a></td>
                 <td><span class="category-badge">Backend</span></td>
-                <td><span class="stars">25,586</span></td>
+                <td><span class="stars">25,587</span></td>
                 <td><span class="language-badge">Go</span></td>
                 <td>🌩 Self-hosted file management and sharing system, supports multiple storage providers</td>
-                <td>22-11-2025 03:31</td>
+                <td>22-11-2025 04:12</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/mattermost-community/focalboard" target="_blank">mattermost-community/focalboard</a></td>
@@ -1267,18 +1311,18 @@
             <tr>
                 <td><a href="https://github.com/firecrawl/open-lovable" target="_blank">firecrawl/open-lovable</a></td>
                 <td><span class="category-badge">Web Development</span></td>
-                <td><span class="stars">22,312</span></td>
+                <td><span class="stars">22,314</span></td>
                 <td><span class="language-badge">TypeScript</span></td>
                 <td>🔥 Clone and recreate any website as a modern React app in seconds</td>
-                <td>22-11-2025 03:55</td>
+                <td>22-11-2025 04:10</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/musistudio/claude-code-router" target="_blank">musistudio/claude-code-router</a></td>
                 <td><span class="category-badge">Web Development</span></td>
-                <td><span class="stars">22,124</span></td>
+                <td><span class="stars">22,126</span></td>
                 <td><span class="language-badge">TypeScript</span></td>
                 <td>Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.</td>
-                <td>22-11-2025 03:11</td>
+                <td>22-11-2025 04:17</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/zsh-users/zsh-syntax-highlighting" target="_blank">zsh-users/zsh-syntax-highlighting</a></td>
@@ -1339,10 +1383,10 @@
             <tr>
                 <td><a href="https://github.com/LiLittleCat/awesome-free-chatgpt" target="_blank">LiLittleCat/awesome-free-chatgpt</a></td>
                 <td><span class="category-badge">Backend</span></td>
-                <td><span class="stars">20,583</span></td>
+                <td><span class="stars">20,584</span></td>
                 <td><span class="language-badge">Python</span></td>
                 <td>🆓免费的 ChatGPT 镜像网站列表，持续更新。List of free ChatGPT mirror sites, continuously updated.</td>
-                <td>21-11-2025 22:21</td>
+                <td>22-11-2025 04:18</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/pedroslopez/whatsapp-web.js" target="_blank">pedroslopez/whatsapp-web.js</a></td>
@@ -1382,15 +1426,15 @@
                 <td><span class="stars">19,060</span></td>
                 <td><span class="language-badge">JavaScript</span></td>
                 <td>API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites</td>
-                <td>22-11-2025 01:56</td>
+                <td>22-11-2025 04:11</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/Skyvern-AI/skyvern" target="_blank">Skyvern-AI/skyvern</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">18,612</span></td>
+                <td><span class="stars">18,611</span></td>
                 <td><span class="language-badge">Python</span></td>
                 <td>Automate browser based workflows with AI</td>
-                <td>22-11-2025 03:34</td>
+                <td>22-11-2025 04:18</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/knadh/listmonk" target="_blank">knadh/listmonk</a></td>
@@ -1467,10 +1511,10 @@
             <tr>
                 <td><a href="https://github.com/Alibaba-NLP/DeepResearch" target="_blank">Alibaba-NLP/DeepResearch</a></td>
                 <td><span class="category-badge">Frontend</span></td>
-                <td><span class="stars">17,276</span></td>
+                <td><span class="stars">17,277</span></td>
                 <td><span class="language-badge">Python</span></td>
                 <td>Tongyi Deep Research, the Leading Open-source Deep Research Agent</td>
-                <td>22-11-2025 03:26</td>
+                <td>22-11-2025 04:11</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/lss233/kirara-ai" target="_blank">lss233/kirara-ai</a></td>
@@ -1499,18 +1543,18 @@
             <tr>
                 <td><a href="https://github.com/emcie-co/parlant" target="_blank">emcie-co/parlant</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">16,329</span></td>
+                <td><span class="stars">16,330</span></td>
                 <td><span class="language-badge">Python</span></td>
                 <td>LLM agents built for control. Designed for real-world use. Deployed in minutes.</td>
-                <td>22-11-2025 03:18</td>
+                <td>22-11-2025 04:19</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/enescingoz/awesome-n8n-templates" target="_blank">enescingoz/awesome-n8n-templates</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">15,920</span></td>
+                <td><span class="stars">15,923</span></td>
                 <td><span class="language-badge">None</span></td>
                 <td>Supercharge your workflow automation with this curated collection of n8n templates! Instantly connect your favorite apps-like Gmail, Telegram, Google Drive, Slack, and more-with ready-to-use, AI-po...</td>
-                <td>22-11-2025 03:28</td>
+                <td>22-11-2025 04:08</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/m1k1o/neko" target="_blank">m1k1o/neko</a></td>
@@ -1579,10 +1623,10 @@
             <tr>
                 <td><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp" target="_blank">ChromeDevTools/chrome-devtools-mcp</a></td>
                 <td><span class="category-badge">Backend</span></td>
-                <td><span class="stars">15,113</span></td>
+                <td><span class="stars">15,115</span></td>
                 <td><span class="language-badge">TypeScript</span></td>
                 <td>Chrome DevTools for coding agents</td>
-                <td>22-11-2025 03:53</td>
+                <td>22-11-2025 04:15</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/MatrixTM/MHDDoS" target="_blank">MatrixTM/MHDDoS</a></td>
@@ -1723,10 +1767,10 @@
             <tr>
                 <td><a href="https://github.com/AstrBotDevs/AstrBot" target="_blank">AstrBotDevs/AstrBot</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">13,543</span></td>
+                <td><span class="stars">13,544</span></td>
                 <td><span class="language-badge">Python</span></td>
                 <td>✨ Agentic IM ChatBot Infrastructure ✨ Integration with multiple IMs, easy-to-use plugin system, supports OpenAI, Gemini, Anthropic, Dify, Coze, built-in Knowledge Base, Agent. ✨ 一站式大模型聊天机器人平台及开发框架 ...</td>
-                <td>22-11-2025 03:21</td>
+                <td>22-11-2025 04:18</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/Powerlevel9k/powerlevel9k" target="_blank">Powerlevel9k/powerlevel9k</a></td>
@@ -1771,10 +1815,10 @@
             <tr>
                 <td><a href="https://github.com/usestrix/strix" target="_blank">usestrix/strix</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">13,020</span></td>
+                <td><span class="stars">13,024</span></td>
                 <td><span class="language-badge">Python</span></td>
                 <td>Open-source AI agents for penetration testing</td>
-                <td>22-11-2025 03:49</td>
+                <td>22-11-2025 04:13</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/public-api-lists/public-api-lists" target="_blank">public-api-lists/public-api-lists</a></td>
@@ -1987,18 +2031,18 @@
             <tr>
                 <td><a href="https://github.com/bytebot-ai/bytebot" target="_blank">bytebot-ai/bytebot</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">9,710</span></td>
+                <td><span class="stars">9,709</span></td>
                 <td><span class="language-badge">TypeScript</span></td>
                 <td>Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.</td>
-                <td>22-11-2025 02:21</td>
+                <td>22-11-2025 04:15</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/BeehiveInnovations/zen-mcp-server" target="_blank">BeehiveInnovations/zen-mcp-server</a></td>
                 <td><span class="category-badge">Backend</span></td>
-                <td><span class="stars">9,708</span></td>
+                <td><span class="stars">9,709</span></td>
                 <td><span class="language-badge">Python</span></td>
                 <td>The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.</td>
-                <td>22-11-2025 01:37</td>
+                <td>22-11-2025 04:18</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/C4illin/ConvertX" target="_blank">C4illin/ConvertX</a></td>
@@ -2051,10 +2095,10 @@
             <tr>
                 <td><a href="https://github.com/NopeCHALLC/nopecha-extension" target="_blank">NopeCHALLC/nopecha-extension</a></td>
                 <td><span class="category-badge">Other</span></td>
-                <td><span class="stars">8,977</span></td>
+                <td><span class="stars">8,978</span></td>
                 <td><span class="language-badge">None</span></td>
                 <td>Automated CAPTCHA solver for your browser. Works with Selenium, Puppeteer, Playwright, and more.</td>
-                <td>22-11-2025 03:49</td>
+                <td>22-11-2025 04:14</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/amnezia-vpn/amnezia-client" target="_blank">amnezia-vpn/amnezia-client</a></td>
@@ -2163,10 +2207,10 @@
             <tr>
                 <td><a href="https://github.com/uiverse-io/galaxy" target="_blank">uiverse-io/galaxy</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">7,988</span></td>
+                <td><span class="stars">7,989</span></td>
                 <td><span class="language-badge">HTML</span></td>
                 <td>The largest Open-Source UI Library! Community-made and free to use. Made with either CSS or Tailwind.</td>
-                <td>22-11-2025 02:17</td>
+                <td>22-11-2025 04:14</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/PrivateBin/PrivateBin" target="_blank">PrivateBin/PrivateBin</a></td>
@@ -2459,10 +2503,10 @@
             <tr>
                 <td><a href="https://github.com/TGX-Android/Telegram-X" target="_blank">TGX-Android/Telegram-X</a></td>
                 <td><span class="category-badge">Mobile</span></td>
-                <td><span class="stars">4,871</span></td>
+                <td><span class="stars">4,873</span></td>
                 <td><span class="language-badge">Java</span></td>
                 <td>The main repository of Telegram X — official alternative Telegram client for Android.</td>
-                <td>21-11-2025 22:47</td>
+                <td>22-11-2025 04:14</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/HFO4/gameboy.live" target="_blank">HFO4/gameboy.live</a></td>
@@ -3331,10 +3375,10 @@
             <tr>
                 <td><a href="https://github.com/ling-drag0n/CloudPaste" target="_blank">ling-drag0n/CloudPaste</a></td>
                 <td><span class="category-badge">DevOps</span></td>
-                <td><span class="stars">1,551</span></td>
+                <td><span class="stars">1,552</span></td>
                 <td><span class="language-badge">JavaScript</span></td>
                 <td>A Cloudflare-based online text/large file sharing platform that supports multiple syntax Markdown rendering, self-destructing messages, S3 aggregated storage, password protection, and more. It can ...</td>
-                <td>21-11-2025 07:51</td>
+                <td>22-11-2025 04:09</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/filipecalegario/awesome-vibe-coding" target="_blank">filipecalegario/awesome-vibe-coding</a></td>
@@ -3651,10 +3695,10 @@
             <tr>
                 <td><a href="https://github.com/lucaswalter/n8n-ai-automations" target="_blank">lucaswalter/n8n-ai-automations</a></td>
                 <td><span class="category-badge">AI/ML</span></td>
-                <td><span class="stars">1,046</span></td>
+                <td><span class="stars">1,047</span></td>
                 <td><span class="language-badge">None</span></td>
                 <td>Collection of n8n workflows, n8n templates, AI automations, and AI agents created for The Recap AI YouTube channel and the AI Automation Mastery free Skool community.</td>
-                <td>22-11-2025 02:52</td>
+                <td>22-11-2025 04:20</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/ymyuuu/Cloudflare-Workers-Proxy" target="_blank">ymyuuu/Cloudflare-Workers-Proxy</a></td>
@@ -4382,7 +4426,7 @@
                 <td><span class="stars">153</span></td>
                 <td><span class="language-badge">Python</span></td>
                 <td>No description available</td>
-                <td>22-11-2025 03:55</td>
+                <td>22-11-2025 04:10</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/toolsdk-ai/toolsdk-mcp-registry" target="_blank">toolsdk-ai/toolsdk-mcp-registry</a></td>
@@ -4644,6 +4688,23 @@
 
         // Initialize - sort by stars (already sorted in Python, but show indicator)
         sortDirection[2] = false; // Will toggle to true on first click
+
+        // Back to Top Button
+        const backToTop = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
     </script>
+
+    <button id="backToTop" class="back-to-top" title="Back to top">↑</button>
 </body>
 </html>
