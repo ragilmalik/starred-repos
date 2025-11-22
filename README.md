@@ -5,9 +5,9 @@
 ## 📊 Statistics
 
 - **Total Repositories**: 528
-- **Total Stars Given**: 10,524,580
+- **Total Stars Given**: 10,524,585
 - **Categories**: 24
-- **Last Updated**: 22-11-2025 05:29 UTC
+- **Last Updated**: 22-11-2025 05:30 UTC
 
 ### 📁 Category Distribution
 
@@ -68,10 +68,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/codecrafters-io/build-your-own-x">codecrafters-io/build-your-own-x</a></td>
 <td align="center">Markdown</td>
-<td align="center">441,471</td>
+<td align="center">441,473</td>
 <td align="center">Markdown</td>
 <td>Master programming by recreating your favorite technologies from scratch.</td>
-<td align="center"><sub>22-11-2025 05:28</sub></td>
+<td align="center"><sub>22-11-2025 05:29</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/sindresorhus/awesome">sindresorhus/awesome</a></td>
@@ -140,10 +140,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/n8n-io/n8n">n8n-io/n8n</a></td>
 <td align="center">AI/ML</td>
-<td align="center">157,877</td>
+<td align="center">157,878</td>
 <td align="center">TypeScript</td>
 <td>Fair-code workflow automation platform with native AI capabilities. Combine visual building with ...</td>
-<td align="center"><sub>22-11-2025 05:27</sub></td>
+<td align="center"><sub>22-11-2025 05:29</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/massgravel/Microsoft-Activation-Scripts">massgravel/Microsoft-Activation-Scripts</a></td>
@@ -474,7 +474,7 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### AI/ML (170 repositories)
 
-- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ 157,877 - Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus...
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ 157,878 - Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus...
 - [open-webui/open-webui](https://github.com/open-webui/open-webui) ⭐ 115,897 - User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 - [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) ⭐ 88,188 - A Collection of application ideas which can be used to improve your coding skills.
 - [microsoft/markitdown](https://github.com/microsoft/markitdown) ⭐ 83,197 - Python tool for converting files and office documents to Markdown.
@@ -648,7 +648,7 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Markdown (1 repositories)
 
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) ⭐ 441,471 - Master programming by recreating your favorite technologies from scratch.
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) ⭐ 441,473 - Master programming by recreating your favorite technologies from scratch.
 
 ### Mobile (17 repositories)
 
@@ -697,7 +697,7 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### PowerShell (2 repositories)
 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) ⭐ 42,970 - Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) ⭐ 42,971 - Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [mandiant/flare-vm](https://github.com/mandiant/flare-vm) ⭐ 8,036 - A collection of software installations scripts for Windows systems that allows you to easily setup a...
 
 ### Security (12 repositories)
@@ -706,7 +706,7 @@ For the full experience with **sortable columns** and **live search functionalit
 - [StevenBlack/hosts](https://github.com/StevenBlack/hosts) ⭐ 29,301 - 🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensi...
 - [rizinorg/cutter](https://github.com/rizinorg/cutter) ⭐ 18,045 - Free and Open Source Reverse Engineering Platform powered by rizin
 - [sensepost/objection](https://github.com/sensepost/objection) ⭐ 8,673 - 📱 objection - runtime mobile exploration
-- [Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy) ⭐ 8,489 - 🦄  A curated list of privacy & security-focused software and services
+- [Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy) ⭐ 8,490 - 🦄  A curated list of privacy & security-focused software and services
 - [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) ⭐ 7,743 - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data i...
 - [p1ngul1n0/blackbird](https://github.com/p1ngul1n0/blackbird) ⭐ 5,021 - An OSINT tool to search for accounts by username and email in social networks.
 - [EnergizedProtection/block](https://github.com/EnergizedProtection/block) ⭐ 2,743 - Let's make an annoyance free, better open internet, altogether!
@@ -783,7 +783,7 @@ Check out the **[TUTORIAL.md](./TUTORIAL.md)** for complete setup instructions!
 
 **Made with ❤️ using Python and GitHub Actions**
 
-*Last generated: 22-11-2025 05:29 UTC*
+*Last generated: 22-11-2025 05:30 UTC*
 
 [🌐 Live Interactive View](https://github.ragilmalik.com/starred-repos) • [📥 Download Excel](./starred_repos.xlsx) • [📖 Setup Tutorial](./TUTORIAL.md)
 
