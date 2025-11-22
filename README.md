@@ -5,9 +5,9 @@
 ## 📊 Statistics
 
 - **Total Repositories**: 528
-- **Total Stars Given**: 10,524,407
+- **Total Stars Given**: 10,524,414
 - **Categories**: 24
-- **Last Updated**: 22-11-2025 04:53 UTC
+- **Last Updated**: 22-11-2025 04:54 UTC
 
 ### 📁 Category Distribution
 
@@ -68,18 +68,18 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/codecrafters-io/build-your-own-x">codecrafters-io/build-your-own-x</a></td>
 <td align="center">Markdown</td>
-<td align="center">441,458</td>
+<td align="center">441,459</td>
 <td align="center">Markdown</td>
 <td>Master programming by recreating your favorite technologies from scratch.</td>
-<td align="center"><sub>22-11-2025 04:50</sub></td>
+<td align="center"><sub>22-11-2025 04:53</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/sindresorhus/awesome">sindresorhus/awesome</a></td>
 <td align="center">Other</td>
-<td align="center">416,619</td>
+<td align="center">416,620</td>
 <td align="center">None</td>
 <td>😎 Awesome lists about all kinds of interesting topics</td>
-<td align="center"><sub>22-11-2025 04:52</sub></td>
+<td align="center"><sub>22-11-2025 04:53</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/public-apis/public-apis">public-apis/public-apis</a></td>
@@ -220,7 +220,7 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/iptv-org/iptv">iptv-org/iptv</a></td>
 <td align="center">Web Development</td>
-<td align="center">102,442</td>
+<td align="center">102,443</td>
 <td align="center">TypeScript</td>
 <td>Collection of publicly available IPTV channels from all over the world</td>
 <td align="center"><sub>22-11-2025 04:52</sub></td>
@@ -284,10 +284,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></td>
 <td align="center">Backend</td>
-<td align="center">83,957</td>
+<td align="center">83,958</td>
 <td align="center">TypeScript</td>
 <td>An open-source AI agent that brings the power of Gemini directly into your terminal.</td>
-<td align="center"><sub>22-11-2025 04:52</sub></td>
+<td align="center"><sub>22-11-2025 04:53</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/microsoft/markitdown">microsoft/markitdown</a></td>
@@ -324,10 +324,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/anuraghazra/github-readme-stats">anuraghazra/github-readme-stats</a></td>
 <td align="center">Backend</td>
-<td align="center">76,999</td>
+<td align="center">77,000</td>
 <td align="center">JavaScript</td>
 <td>:zap: Dynamically generated stats for your github readmes</td>
-<td align="center"><sub>22-11-2025 02:11</sub></td>
+<td align="center"><sub>22-11-2025 04:53</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/hacksider/Deep-Live-Cam">hacksider/Deep-Live-Cam</a></td>
@@ -511,9 +511,9 @@ For the full experience with **sortable columns** and **live search functionalit
 - [vinta/awesome-python](https://github.com/vinta/awesome-python) ⭐ 270,464 - An opinionated list of awesome Python frameworks, libraries, software and resources.
 - [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) ⭐ 136,766 - This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.
 - [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ⭐ 125,896 - Microsoft PowerToys is a collection of utilities that help you customize Windows and streamline ever...
-- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ⭐ 83,957 - An open-source AI agent that brings the power of Gemini directly into your terminal.
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ⭐ 83,958 - An open-source AI agent that brings the power of Gemini directly into your terminal.
 - [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) ⭐ 79,378 - Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource...
-- [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) ⭐ 76,999 - :zap: Dynamically generated stats for your github readmes
+- [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) ⭐ 77,000 - :zap: Dynamically generated stats for your github readmes
 - [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) ⭐ 59,605 - 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
 - [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) ⭐ 56,212 - 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discor...
 - [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) ⭐ 47,892 - The lazier way to manage everything docker
@@ -648,7 +648,7 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Markdown (1 repositories)
 
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) ⭐ 441,458 - Master programming by recreating your favorite technologies from scratch.
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) ⭐ 441,459 - Master programming by recreating your favorite technologies from scratch.
 
 ### Mobile (17 repositories)
 
@@ -672,7 +672,7 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Other (33 repositories)
 
-- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) ⭐ 416,619 - 😎 Awesome lists about all kinds of interesting topics
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) ⭐ 416,620 - 😎 Awesome lists about all kinds of interesting topics
 - [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ⭐ 259,313 - A list of Free Software network services and web applications which can be hosted on your own server...
 - [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) ⭐ 79,934 - A list of awesome beginners-friendly projects.
 - [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) ⭐ 63,776 - :zap: Delightful Node.js packages and resources
@@ -734,11 +734,11 @@ For the full experience with **sortable columns** and **live search functionalit
 
 - [ossu/computer-science](https://github.com/ossu/computer-science) ⭐ 198,029 - 🎓 Path to a free self-taught education in Computer Science!
 - [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ⭐ 115,457 - A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
-- [iptv-org/iptv](https://github.com/iptv-org/iptv) ⭐ 102,442 - Collection of publicly available IPTV channels from all over the world
+- [iptv-org/iptv](https://github.com/iptv-org/iptv) ⭐ 102,443 - Collection of publicly available IPTV channels from all over the world
 - [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) ⭐ 93,788 -  Now we have become very big, Different from the original idea. Collect premium software in various...
 - [Chanzhaoyu/chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web) ⭐ 31,902 - 用 Express 和  Vue3 搭建的 ChatGPT 演示网页
 - [mattermost-community/focalboard](https://github.com/mattermost-community/focalboard) ⭐ 25,456 - Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.
-- [firecrawl/open-lovable](https://github.com/firecrawl/open-lovable) ⭐ 22,314 - 🔥 Clone and recreate any website as a modern React app in seconds
+- [firecrawl/open-lovable](https://github.com/firecrawl/open-lovable) ⭐ 22,315 - 🔥 Clone and recreate any website as a modern React app in seconds
 - [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) ⭐ 22,128 - Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact ...
 - [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) ⭐ 15,746 - Qwen Code is a coding agent that lives in the digital world.
 - [htr-tech/zphisher](https://github.com/htr-tech/zphisher) ⭐ 14,891 - An automated phishing tool with 30+ templates. This Tool is made for educational purpose only ! Auth...
@@ -783,7 +783,7 @@ Check out the **[TUTORIAL.md](./TUTORIAL.md)** for complete setup instructions!
 
 **Made with ❤️ using Python and GitHub Actions**
 
-*Last generated: 22-11-2025 04:53 UTC*
+*Last generated: 22-11-2025 04:54 UTC*
 
 [🌐 Live Interactive View](https://github.ragilmalik.com/starred-repos) • [📥 Download Excel](./starred_repos.xlsx) • [📖 Setup Tutorial](./TUTORIAL.md)
 
