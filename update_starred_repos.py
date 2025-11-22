@@ -7,9 +7,10 @@ Fetches all starred repositories and generates README.md, Excel, and Interactive
 import os
 import sys
 import json
+import time
 import requests
 from datetime import datetime
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from dotenv import load_dotenv
 from openpyxl import Workbook
 from openpyxl.styles import Font, Alignment, PatternFill
@@ -28,20 +29,94 @@ HEADERS = {
     'Accept': 'application/vnd.github.v3+json'
 }
 
-def fetch_all_starred_repos() -> List[Dict[str, Any]]:
-    """Fetch all starred repositories with pagination"""
-    print("Fetching starred repositories...")
-    all_repos = []
-    page = 1
-    per_page = 100
+# Constants for retry logic
+MAX_RETRIES = 5
+INITIAL_BACKOFF = 2  # seconds
 
-    while True:
-        url = f'https://api.github.com/user/starred?per_page={per_page}&page={page}'
-        response = requests.get(url, headers=HEADERS)
+def make_request_with_retry(url: str, headers: Dict[str, str]) -> Optional[requests.Response]:
+    """Make a request with retry logic and rate limit handling"""
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = requests.get(url, headers=headers, timeout=30)
 
-        if response.status_code != 200:
+            # Check rate limit
+            remaining = int(response.headers.get('X-RateLimit-Remaining', 1))
+            if remaining == 0:
+                reset_time = int(response.headers.get('X-RateLimit-Reset', 0))
+                wait_time = max(reset_time - int(time.time()), 0) + 1
+                print(f"  Rate limit hit. Waiting {wait_time} seconds...")
+                time.sleep(wait_time)
+                continue
+
+            # Handle rate limit response
+            if response.status_code == 403 and 'rate limit' in response.text.lower():
+                reset_time = int(response.headers.get('X-RateLimit-Reset', 0))
+                wait_time = max(reset_time - int(time.time()), 60) + 1
+                print(f"  Rate limit exceeded. Waiting {wait_time} seconds...")
+                time.sleep(wait_time)
+                continue
+
+            # Success
+            if response.status_code == 200:
+                return response
+
+            # Server error - retry
+            if response.status_code >= 500:
+                backoff = INITIAL_BACKOFF * (2 ** attempt)
+                print(f"  Server error {response.status_code}. Retrying in {backoff}s (attempt {attempt + 1}/{MAX_RETRIES})")
+                time.sleep(backoff)
+                continue
+
+            # Client error - don't retry
             print(f"Error: GitHub API returned status code {response.status_code}")
             print(response.text)
+            return None
+
+        except requests.exceptions.Timeout:
+            backoff = INITIAL_BACKOFF * (2 ** attempt)
+            print(f"  Request timeout. Retrying in {backoff}s (attempt {attempt + 1}/{MAX_RETRIES})")
+            time.sleep(backoff)
+        except requests.exceptions.RequestException as e:
+            backoff = INITIAL_BACKOFF * (2 ** attempt)
+            print(f"  Request error: {e}. Retrying in {backoff}s (attempt {attempt + 1}/{MAX_RETRIES})")
+            time.sleep(backoff)
+
+    print(f"Failed to fetch after {MAX_RETRIES} attempts")
+    return None
+
+
+def parse_link_header(link_header: str) -> Dict[str, str]:
+    """Parse the Link header to extract pagination URLs"""
+    links = {}
+    if not link_header:
+        return links
+
+    for part in link_header.split(','):
+        section = part.split(';')
+        if len(section) < 2:
+            continue
+        url = section[0].strip()[1:-1]  # Remove < and >
+        rel = section[1].strip().split('=')[1].strip('"')
+        links[rel] = url
+
+    return links
+
+
+def fetch_all_starred_repos() -> List[Dict[str, Any]]:
+    """Fetch all starred repositories with robust pagination using Link header"""
+    print("Fetching starred repositories...")
+    all_repos = []
+    per_page = 100
+
+    # Use Link header pagination (more reliable than manual page counting)
+    url = f'https://api.github.com/user/starred?per_page={per_page}'
+    page = 1
+
+    while url:
+        response = make_request_with_retry(url, HEADERS)
+
+        if response is None:
+            print("Error: Failed to fetch starred repositories")
             sys.exit(1)
 
         repos = response.json()
@@ -49,8 +124,16 @@ def fetch_all_starred_repos() -> List[Dict[str, Any]]:
             break
 
         all_repos.extend(repos)
-        print(f"  Fetched page {page} ({len(repos)} repos)")
+        print(f"  Fetched page {page} ({len(repos)} repos, total: {len(all_repos)})")
+
+        # Get next page URL from Link header
+        link_header = response.headers.get('Link', '')
+        links = parse_link_header(link_header)
+        url = links.get('next')
         page += 1
+
+        # Small delay to be nice to the API
+        time.sleep(0.1)
 
     print(f"Total repositories fetched: {len(all_repos)}")
     return all_repos
