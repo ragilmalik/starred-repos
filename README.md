@@ -5,9 +5,9 @@
 ## 📊 Statistics
 
 - **Total Repositories**: 528
-- **Total Stars Given**: 10,524,369
+- **Total Stars Given**: 10,524,397
 - **Categories**: 24
-- **Last Updated**: 22-11-2025 04:44 UTC
+- **Last Updated**: 22-11-2025 04:51 UTC
 
 ### 📁 Category Distribution
 
@@ -68,34 +68,34 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/codecrafters-io/build-your-own-x">codecrafters-io/build-your-own-x</a></td>
 <td align="center">Markdown</td>
-<td align="center">441,456</td>
+<td align="center">441,458</td>
 <td align="center">Markdown</td>
 <td>Master programming by recreating your favorite technologies from scratch.</td>
-<td align="center"><sub>22-11-2025 04:44</sub></td>
+<td align="center"><sub>22-11-2025 04:50</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/sindresorhus/awesome">sindresorhus/awesome</a></td>
 <td align="center">Other</td>
-<td align="center">416,617</td>
+<td align="center">416,618</td>
 <td align="center">None</td>
 <td>😎 Awesome lists about all kinds of interesting topics</td>
-<td align="center"><sub>22-11-2025 04:37</sub></td>
+<td align="center"><sub>22-11-2025 04:51</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/public-apis/public-apis">public-apis/public-apis</a></td>
 <td align="center">Backend</td>
-<td align="center">380,002</td>
+<td align="center">380,003</td>
 <td align="center">Python</td>
 <td>A collective list of free APIs</td>
-<td align="center"><sub>22-11-2025 04:44</sub></td>
+<td align="center"><sub>22-11-2025 04:45</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/vinta/awesome-python">vinta/awesome-python</a></td>
 <td align="center">Backend</td>
-<td align="center">270,462</td>
+<td align="center">270,465</td>
 <td align="center">Python</td>
 <td>An opinionated list of awesome Python frameworks, libraries, software and resources.</td>
-<td align="center"><sub>22-11-2025 04:43</sub></td>
+<td align="center"><sub>22-11-2025 04:50</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/awesome-selfhosted/awesome-selfhosted">awesome-selfhosted/awesome-selfhosted</a></td>
@@ -140,10 +140,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/n8n-io/n8n">n8n-io/n8n</a></td>
 <td align="center">AI/ML</td>
-<td align="center">157,872</td>
+<td align="center">157,875</td>
 <td align="center">TypeScript</td>
 <td>Fair-code workflow automation platform with native AI capabilities. Combine visual building with ...</td>
-<td align="center"><sub>22-11-2025 04:42</sub></td>
+<td align="center"><sub>22-11-2025 04:49</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/massgravel/Microsoft-Activation-Scripts">massgravel/Microsoft-Activation-Scripts</a></td>
@@ -156,26 +156,26 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/f/awesome-chatgpt-prompts">f/awesome-chatgpt-prompts</a></td>
 <td align="center">Backend</td>
-<td align="center">136,765</td>
+<td align="center">136,766</td>
 <td align="center">JavaScript</td>
 <td>This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.</td>
-<td align="center"><sub>22-11-2025 04:43</sub></td>
+<td align="center"><sub>22-11-2025 04:47</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/yt-dlp/yt-dlp">yt-dlp/yt-dlp</a></td>
 <td align="center">CLI Tools</td>
-<td align="center">135,877</td>
+<td align="center">135,876</td>
 <td align="center">Python</td>
 <td>A feature-rich command-line audio/video downloader</td>
-<td align="center"><sub>22-11-2025 04:39</sub></td>
+<td align="center"><sub>22-11-2025 04:46</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/Genymobile/scrcpy">Genymobile/scrcpy</a></td>
 <td align="center">Mobile</td>
-<td align="center">131,401</td>
+<td align="center">131,402</td>
 <td align="center">C</td>
 <td>Display and control your Android device</td>
-<td align="center"><sub>22-11-2025 04:42</sub></td>
+<td align="center"><sub>22-11-2025 04:45</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/microsoft/PowerToys">microsoft/PowerToys</a></td>
@@ -188,10 +188,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></td>
 <td align="center">AI/ML</td>
-<td align="center">115,895</td>
+<td align="center">115,896</td>
 <td align="center">JavaScript</td>
 <td>User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</td>
-<td align="center"><sub>22-11-2025 04:20</sub></td>
+<td align="center"><sub>22-11-2025 04:46</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/justjavac/free-programming-books-zh_CN">justjavac/free-programming-books-zh_CN</a></td>
@@ -204,7 +204,7 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/ripienaar/free-for-dev">ripienaar/free-for-dev</a></td>
 <td align="center">Web Development</td>
-<td align="center">115,456</td>
+<td align="center">115,457</td>
 <td align="center">HTML</td>
 <td>A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev</td>
 <td align="center"><sub>22-11-2025 04:44</sub></td>
@@ -228,10 +228,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/Hack-with-Github/Awesome-Hacking">Hack-with-Github/Awesome-Hacking</a></td>
 <td align="center">Security</td>
-<td align="center">101,007</td>
+<td align="center">101,008</td>
 <td align="center">None</td>
 <td>A collection of various awesome lists for hackers, pentesters and security researchers</td>
-<td align="center"><sub>22-11-2025 04:43</sub></td>
+<td align="center"><sub>22-11-2025 04:45</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/jaywcjlove/awesome-mac">jaywcjlove/awesome-mac</a></td>
@@ -268,26 +268,26 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/ChatGPTNextWeb/NextChat">ChatGPTNextWeb/NextChat</a></td>
 <td align="center">Frontend</td>
-<td align="center">86,470</td>
+<td align="center">86,471</td>
 <td align="center">TypeScript</td>
 <td>✨ Light and Fast AI Assistant. Support: Web   iOS</td>
-<td align="center"><sub>22-11-2025 04:01</sub></td>
+<td align="center"><sub>22-11-2025 04:45</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/immich-app/immich">immich-app/immich</a></td>
 <td align="center">Mobile</td>
-<td align="center">84,715</td>
+<td align="center">84,717</td>
 <td align="center">TypeScript</td>
 <td>High performance self-hosted photo and video management solution.</td>
-<td align="center"><sub>22-11-2025 04:41</sub></td>
+<td align="center"><sub>22-11-2025 04:46</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></td>
 <td align="center">Backend</td>
-<td align="center">83,954</td>
+<td align="center">83,956</td>
 <td align="center">TypeScript</td>
 <td>An open-source AI agent that brings the power of Gemini directly into your terminal.</td>
-<td align="center"><sub>22-11-2025 04:41</sub></td>
+<td align="center"><sub>22-11-2025 04:46</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/microsoft/markitdown">microsoft/markitdown</a></td>
@@ -300,18 +300,18 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/MunGell/awesome-for-beginners">MunGell/awesome-for-beginners</a></td>
 <td align="center">Other</td>
-<td align="center">79,933</td>
+<td align="center">79,934</td>
 <td align="center">None</td>
 <td>A list of awesome beginners-friendly projects.</td>
-<td align="center"><sub>22-11-2025 03:35</sub></td>
+<td align="center"><sub>22-11-2025 04:47</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/Shubhamsaboo/awesome-llm-apps">Shubhamsaboo/awesome-llm-apps</a></td>
 <td align="center">Backend</td>
-<td align="center">79,376</td>
+<td align="center">79,377</td>
 <td align="center">Python</td>
 <td>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensou...</td>
-<td align="center"><sub>22-11-2025 03:42</sub></td>
+<td align="center"><sub>22-11-2025 04:49</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/louislam/uptime-kuma">louislam/uptime-kuma</a></td>
@@ -332,10 +332,10 @@ For the full experience with **sortable columns** and **live search functionalit
 <tr>
 <td><a href="https://github.com/hacksider/Deep-Live-Cam">hacksider/Deep-Live-Cam</a></td>
 <td align="center">AI/ML</td>
-<td align="center">75,897</td>
+<td align="center">75,898</td>
 <td align="center">Python</td>
 <td>real time face swap and one-click video deepfake with only a single image</td>
-<td align="center"><sub>22-11-2025 04:42</sub></td>
+<td align="center"><sub>22-11-2025 04:47</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/sherlock-project/sherlock">sherlock-project/sherlock</a></td>
@@ -351,7 +351,7 @@ For the full experience with **sortable columns** and **live search functionalit
 <td align="center">68,291</td>
 <td align="center">TypeScript</td>
 <td>🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data</td>
-<td align="center"><sub>22-11-2025 04:32</sub></td>
+<td align="center"><sub>22-11-2025 04:49</sub></td>
 </tr>
 <tr>
 <td><a href="https://github.com/lobehub/lobe-chat">lobehub/lobe-chat</a></td>
@@ -474,11 +474,11 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### AI/ML (170 repositories)
 
-- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ 157,872 - Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus...
-- [open-webui/open-webui](https://github.com/open-webui/open-webui) ⭐ 115,895 - User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ 157,875 - Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus...
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) ⭐ 115,896 - User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 - [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) ⭐ 88,187 - A Collection of application ideas which can be used to improve your coding skills.
 - [microsoft/markitdown](https://github.com/microsoft/markitdown) ⭐ 83,197 - Python tool for converting files and office documents to Markdown.
-- [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) ⭐ 75,897 - real time face swap and one-click video deepfake with only a single image
+- [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) ⭐ 75,898 - real time face swap and one-click video deepfake with only a single image
 - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) ⭐ 70,466 - Hunt down social media accounts by username across social networks
 - [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐ 68,291 - 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data
 - [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) ⭐ 67,933 - 🤯 LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowle...
@@ -488,7 +488,7 @@ For the full experience with **sortable columns** and **live search functionalit
 - [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) ⭐ 51,325 - The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, ...
 - [dockur/windows](https://github.com/dockur/windows) ⭐ 48,686 - Windows inside a Docker container.
 - [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ⭐ 47,867 - 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
-- [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) ⭐ 47,436 - Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-fr...
+- [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) ⭐ 47,437 - Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-fr...
 - [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip) ⭐ 43,134 - [Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用...
 - [janhq/jan](https://github.com/janhq/jan) ⭐ 39,416 - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
 - [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) ⭐ 39,115 - A privacy-first, self-hosted, fully open source personal knowledge management software, written in t...
@@ -507,12 +507,12 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Backend (102 repositories)
 
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) ⭐ 380,002 - A collective list of free APIs
-- [vinta/awesome-python](https://github.com/vinta/awesome-python) ⭐ 270,462 - An opinionated list of awesome Python frameworks, libraries, software and resources.
-- [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) ⭐ 136,765 - This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) ⭐ 380,003 - A collective list of free APIs
+- [vinta/awesome-python](https://github.com/vinta/awesome-python) ⭐ 270,465 - An opinionated list of awesome Python frameworks, libraries, software and resources.
+- [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) ⭐ 136,766 - This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.
 - [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ⭐ 125,896 - Microsoft PowerToys is a collection of utilities that help you customize Windows and streamline ever...
-- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ⭐ 83,954 - An open-source AI agent that brings the power of Gemini directly into your terminal.
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) ⭐ 79,376 - Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource...
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ⭐ 83,956 - An open-source AI agent that brings the power of Gemini directly into your terminal.
+- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) ⭐ 79,377 - Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource...
 - [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) ⭐ 76,999 - :zap: Dynamically generated stats for your github readmes
 - [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) ⭐ 59,605 - 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
 - [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) ⭐ 56,211 - 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discor...
@@ -559,7 +559,7 @@ For the full experience with **sortable columns** and **live search functionalit
 ### CLI Tools (11 repositories)
 
 - [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ⭐ 182,892 - 🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configu...
-- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) ⭐ 135,877 - A feature-rich command-line audio/video downloader
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) ⭐ 135,876 - A feature-rich command-line audio/video downloader
 - [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) ⭐ 27,110 - A code-searching tool similar to ack, but faster.
 - [luong-komorebi/Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software) ⭐ 24,439 - 🐧 A list of awesome Linux softwares
 - [Powerlevel9k/powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k) ⭐ 13,444 - Powerlevel9k was a tool for building a beautiful and highly functional CLI, customized for you. P9k ...
@@ -611,11 +611,11 @@ For the full experience with **sortable columns** and **live search functionalit
 - [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) ⭐ 115,730 - :books: 免费的计算机编程类中文书籍，欢迎投稿
 - [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) ⭐ 92,906 - JavaScript API for Chrome and Firefox
 - [fastapi/fastapi](https://github.com/fastapi/fastapi) ⭐ 92,146 - FastAPI framework, high performance, easy to learn, fast to code, ready for production
-- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) ⭐ 86,470 - ✨ Light and Fast AI Assistant. Support: Web   iOS
+- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) ⭐ 86,471 - ✨ Light and Fast AI Assistant. Support: Web   iOS
 - [rclone/rclone](https://github.com/rclone/rclone) ⭐ 53,639 - "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi...
 - [ionic-team/ionic-framework](https://github.com/ionic-team/ionic-framework) ⭐ 52,194 - A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web A...
 - [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) ⭐ 47,498 - :iphone: Collaborative List of Open-Source iOS Apps
-- [HeyPuter/puter](https://github.com/HeyPuter/puter) ⭐ 37,383 - 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable.
+- [HeyPuter/puter](https://github.com/HeyPuter/puter) ⭐ 37,384 - 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable.
 - [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) ⭐ 28,897 - Best and simplest tool for website change detection, web page monitoring, and website change alerts....
 - [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) ⭐ 25,750 - 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., ...
 - [zulip/zulip](https://github.com/zulip/zulip) ⭐ 23,857 - Zulip server and web application. Open-source team chat that helps teams stay productive and focused...
@@ -648,13 +648,13 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Markdown (1 repositories)
 
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) ⭐ 441,456 - Master programming by recreating your favorite technologies from scratch.
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) ⭐ 441,458 - Master programming by recreating your favorite technologies from scratch.
 
 ### Mobile (17 repositories)
 
-- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ⭐ 131,401 - Display and control your Android device
+- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ⭐ 131,402 - Display and control your Android device
 - [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ⭐ 102,871 - An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer...
-- [immich-app/immich](https://github.com/immich-app/immich) ⭐ 84,715 - High performance self-hosted photo and video management solution.
+- [immich-app/immich](https://github.com/immich-app/immich) ⭐ 84,717 - High performance self-hosted photo and video management solution.
 - [Trinea/android-open-project](https://github.com/Trinea/android-open-project) ⭐ 31,826 - A categorized collection of Android Open Source Projects,  More powerful web version:
 - [MustardChef/WSABuilds](https://github.com/MustardChef/WSABuilds) ⭐ 13,738 - Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with ...
 - [milanvarady/Applite](https://github.com/milanvarady/Applite) ⭐ 5,896 - User-friendly GUI macOS application for Homebrew Casks
@@ -672,9 +672,9 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Other (33 repositories)
 
-- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) ⭐ 416,617 - 😎 Awesome lists about all kinds of interesting topics
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) ⭐ 416,618 - 😎 Awesome lists about all kinds of interesting topics
 - [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ⭐ 259,313 - A list of Free Software network services and web applications which can be hosted on your own server...
-- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) ⭐ 79,933 - A list of awesome beginners-friendly projects.
+- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) ⭐ 79,934 - A list of awesome beginners-friendly projects.
 - [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) ⭐ 63,776 - :zap: Delightful Node.js packages and resources
 - [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ⭐ 56,784 - ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
 - [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) ⭐ 53,610 - A list of cool features of Git and GitHub.
@@ -702,7 +702,7 @@ For the full experience with **sortable columns** and **live search functionalit
 
 ### Security (12 repositories)
 
-- [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) ⭐ 101,007 - A collection of various awesome lists for hackers, pentesters and security researchers
+- [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) ⭐ 101,008 - A collection of various awesome lists for hackers, pentesters and security researchers
 - [StevenBlack/hosts](https://github.com/StevenBlack/hosts) ⭐ 29,301 - 🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensi...
 - [rizinorg/cutter](https://github.com/rizinorg/cutter) ⭐ 18,045 - Free and Open Source Reverse Engineering Platform powered by rizin
 - [sensepost/objection](https://github.com/sensepost/objection) ⭐ 8,672 - 📱 objection - runtime mobile exploration
@@ -733,7 +733,7 @@ For the full experience with **sortable columns** and **live search functionalit
 ### Web Development (56 repositories)
 
 - [ossu/computer-science](https://github.com/ossu/computer-science) ⭐ 198,029 - 🎓 Path to a free self-taught education in Computer Science!
-- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ⭐ 115,456 - A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
+- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ⭐ 115,457 - A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
 - [iptv-org/iptv](https://github.com/iptv-org/iptv) ⭐ 102,443 - Collection of publicly available IPTV channels from all over the world
 - [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) ⭐ 93,787 -  Now we have become very big, Different from the original idea. Collect premium software in various...
 - [Chanzhaoyu/chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web) ⭐ 31,902 - 用 Express 和  Vue3 搭建的 ChatGPT 演示网页
@@ -744,7 +744,7 @@ For the full experience with **sortable columns** and **live search functionalit
 - [htr-tech/zphisher](https://github.com/htr-tech/zphisher) ⭐ 14,891 - An automated phishing tool with 30+ templates. This Tool is made for educational purpose only ! Auth...
 - [automatisch/automatisch](https://github.com/automatisch/automatisch) ⭐ 13,345 - The open source Zapier alternative. Build workflow automation without spending time and money.
 - [ChatGPTBox-dev/chatGPTBox](https://github.com/ChatGPTBox-dev/chatGPTBox) ⭐ 10,709 - Integrating ChatGPT into your browser deeply, everything you need is here
-- [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) ⭐ 9,946 - Spec-driven development for AI coding assistants.
+- [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) ⭐ 9,947 - Spec-driven development for AI coding assistants.
 - [LouisShark/chatgpt_system_prompt](https://github.com/LouisShark/chatgpt_system_prompt) ⭐ 9,870 - A collection of GPT system prompts and various prompt injection/leaking knowledge.
 - [sdelements/lets-chat](https://github.com/sdelements/lets-chat) ⭐ 9,821 - Self-hosted chat app for small teams
 - [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome) ⭐ 9,312 - Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your ...
@@ -783,7 +783,7 @@ Check out the **[TUTORIAL.md](./TUTORIAL.md)** for complete setup instructions!
 
 **Made with ❤️ using Python and GitHub Actions**
 
-*Last generated: 22-11-2025 04:44 UTC*
+*Last generated: 22-11-2025 04:51 UTC*
 
 [🌐 Live Interactive View](https://github.ragilmalik.com/starred-repos) • [📥 Download Excel](./starred_repos.xlsx) • [📖 Setup Tutorial](./TUTORIAL.md)
 
