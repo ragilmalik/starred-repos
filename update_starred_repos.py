@@ -344,6 +344,9 @@ def generate_interactive_html(repos: List[Dict[str, str]]) -> None:
             max-width: 1600px;
             margin: 1.5rem auto;
             padding: 0 2rem;
+            position: relative;
+            z-index: 50;
+            background: #000000;
         }}
 
         .search-wrapper {{
@@ -403,9 +406,6 @@ def generate_interactive_html(repos: List[Dict[str, str]]) -> None:
 
         thead {{
             background: #111;
-            position: sticky;
-            top: 72px;
-            z-index: 10;
         }}
 
         th {{
