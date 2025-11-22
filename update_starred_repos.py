@@ -558,22 +558,23 @@ def generate_interactive_html(repos: List[Dict[str, str]]) -> None:
             position: fixed;
             bottom: 2rem;
             right: 2rem;
-            width: 40px;
-            height: 40px;
-            background: rgba(30, 30, 30, 0.8);
-            border: 1px solid rgba(96, 165, 250, 0.3);
-            border-radius: 8px;
+            width: 44px;
+            height: 44px;
+            background: rgba(20, 20, 20, 0.95);
+            border: 1px solid rgba(96, 165, 250, 0.5);
+            border-radius: 10px;
             color: #60a5fa;
-            font-size: 1.25rem;
+            font-size: 1.5rem;
             cursor: pointer;
             opacity: 0;
             visibility: hidden;
             transition: all 0.3s ease;
-            z-index: 999;
+            z-index: 99999;
             display: flex;
             align-items: center;
             justify-content: center;
-            backdrop-filter: blur(8px);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         }}
 
         .back-to-top:hover {{
