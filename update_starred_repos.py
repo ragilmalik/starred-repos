@@ -566,8 +566,8 @@ def generate_interactive_html(repos: List[Dict[str, str]]) -> None:
             color: #60a5fa;
             font-size: 1.5rem;
             cursor: pointer;
-            opacity: 0;
-            visibility: hidden;
+            opacity: 1;
+            visibility: visible;
             transition: all 0.3s ease;
             z-index: 99999;
             display: flex;
