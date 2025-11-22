@@ -556,45 +556,47 @@ def generate_interactive_html(repos: List[Dict[str, str]]) -> None:
         /* Back to Top Button */
         .back-to-top {{
             position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            width: 44px;
-            height: 44px;
-            background: rgba(20, 20, 20, 0.95);
-            border: 1px solid rgba(96, 165, 250, 0.5);
-            border-radius: 10px;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            width: 38px;
+            height: 38px;
+            background: rgba(15, 15, 15, 0.9);
+            border: 1px solid rgba(96, 165, 250, 0.4);
+            border-radius: 50%;
             color: #60a5fa;
-            font-size: 1.5rem;
             cursor: pointer;
             opacity: 1;
             visibility: visible;
-            transition: all 0.3s ease;
+            transition: all 0.25s ease;
             z-index: 99999;
             display: flex;
             align-items: center;
             justify-content: center;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(8px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
         }}
 
         .back-to-top:hover {{
-            background: rgba(96, 165, 250, 0.2);
+            background: rgba(96, 165, 250, 0.15);
             border-color: #60a5fa;
-            transform: translateY(-2px);
+            transform: scale(1.1);
+            box-shadow: 0 4px 16px rgba(96, 165, 250, 0.3);
         }}
 
-        .back-to-top.visible {{
-            opacity: 1;
-            visibility: visible;
+        .back-to-top:active {{
+            transform: scale(0.95);
         }}
 
         @media (max-width: 768px) {{
             .back-to-top {{
                 bottom: 1rem;
                 right: 1rem;
-                width: 36px;
-                height: 36px;
-                font-size: 1rem;
+                width: 34px;
+                height: 34px;
+            }}
+            .back-to-top svg {{
+                width: 16px;
+                height: 16px;
             }}
         }}
     </style>
@@ -729,24 +731,14 @@ def generate_interactive_html(repos: List[Dict[str, str]]) -> None:
 
         // Initialize - sort by stars (already sorted in Python, but show indicator)
         sortDirection[2] = false; // Will toggle to true on first click
-
-        // Back to Top Button
-        const backToTop = document.getElementById('backToTop');
-
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 300) {
-                backToTop.classList.add('visible');
-            } else {
-                backToTop.classList.remove('visible');
-            }
-        });
-
-        backToTop.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
     </script>
 
-    <button id="backToTop" class="back-to-top" title="Back to top">↑</button>
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" title="Back to top" onclick="window.scrollTo({{top: 0, behavior: 'smooth'}})">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
 </body>
 </html>
 '''
