@@ -28,7 +28,7 @@ jobs:
 
       - name: Check System Info
         run: |
-          echo "Running on Namespace.so infrastructure"
+          echo "Running on Github infrastructure"
           echo "OS Info:"
           cat /etc/os-release
           echo "CPU Info:"
