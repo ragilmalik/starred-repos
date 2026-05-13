@@ -20,7 +20,7 @@ permissions:
 
 jobs:
   update-stars:
-    runs-on: namespace-profile-ragilmalik-linux
+    runs-on: ubuntu-latest
     
     steps:
       - name: Checkout repository
